@@ -1,0 +1,4120 @@
+{
+  "schema_version": 2,
+  "generator_version": "hipi-pre-final-balanced-neutral-tts-flat-v2-100",
+  "list_id": "hipi-pre-final-frozen-100",
+  "purpose": "Randomized six-class Hipi pre-final robustness experiment",
+  "sampling_protocol": "100 unique ordered four-element schedules from a private balanced random seed",
+  "seed_commitment_sha256": "183b07bd5da0eb1574c1ae309a17d20cf8608354e7f7eadea88be4957ef57f50",
+  "joint_challenge_count": 100,
+  "elements_per_joint": 4,
+  "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+  "presentation": {
+    "embedded_tts": true,
+    "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+    "text_prompt_equals_tts": true,
+    "tts_voice": "Microsoft David Desktop"
+  },
+  "joint_challenges": [
+    {
+      "joint_id": "joint_001",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_01.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5f5a7c26f7f418098ea4a0453160c2fb397f16ba8213a8c20433f1e7afecc25b",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_002",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_02.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "c81b21cb12563a35e560ac3af9998ada1a5af9f9b45d0bd58f43e0182192d0c4",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_003",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_03.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "9370e13913072e3097e3b3c052ca97a1bad45843985ad286f2640039adc8b648",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_004",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_04.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "c5267be9b12cb1a1bcee85292207d658fa2af58e89468ec6f60eefc37b332699",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_005",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_05.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "b41aef82cb872efacd333e0cb471a7326e37ccd08e53d2a5b7e6a304c2cf974f",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_006",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_06.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "54e1c91e18a77962aeb7dac6ca10f9cd165c8a770347aceb6249972c6c82cfbe",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_007",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_07.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "6b085251b3cb2dafe00b93db310d629821fe68da95987df26c4af961fa96221c",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_008",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_08.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "a1c5775b441439889b8e04c723080b95e2c80d23e97e73821d3f4b4e569c3d75",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_009",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_09.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "0ff7c1556494c394110e3e065f6c9d9267b5b6e970e9f7414f63a09bd690468a",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_010",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_10.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "44b32177f5b2622d7090b904d4c8771534d7f00a4ef7864badc790dfc296ad8c",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_011",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_11.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "6c8a0d827ed9a878d318b21278759d956b31c8411748f2938cdf5ad621f29ca6",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_012",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_12.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "2fa460cf9a1c4c28def03051f7a49c554257d03fcb3ba121406ca59e789f0370",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_013",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_13.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5570920f59beb2e26fb7b257901aa34b06609b5622de6c6a9c7ba9fb64ef7357",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_014",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_14.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "cb49249fbdd5a542d1f0b73ef4c1ebe91688ea171c7b8acb0c5dd03588d3f686",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_015",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_15.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "2e0a9d452f4df5f5bc0812270e3ecd0bb1e2598c578351e0619034111f3cffd1",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_016",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_16.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "ecce312f22647be24d9e185f73f8a0d5eb7d3cadfee65389c4c9e2949c41f05d",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_017",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_17.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5cf4ea7e5e47ecee170ed7a78115523d8708b10f3de53a96a034edf2faf6644f",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_018",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_18.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "97535c8f89a4680d5b0a254769291be35e9425a9fb85c34954f6172efa0da7d9",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_019",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_19.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "2fa1cc2f48b7c30b720e1a3779e3ce6ebb25ae2066108e606c1f7a1bc06d8a8b",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_020",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_20.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "1810ab64c8c81eadcabbc69939bfa1054253476900612ede3147d819ef608988",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_021",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_21.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "c7684fffee0a7d888f850aaf9eb1dda8edd314542ce11efa0315e75e9b452613",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_022",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_22.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "e7a669b53f615dc29c42c3d20ae730b7ffadd876b37f5e0a73b808f7781d42fe",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_023",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_23.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "83b9c9dbc8baca7d31cfb1526d99da7ec350fef3e534305fcf4ac269c240aa4d",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_024",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_24.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "8c756040d5a791682d98561127b5dbc2cb7a536b5736b2b3707dbc827943c2c3",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_025",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_25.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "a5821c92c64204fc9377eb18c1555d18e2de3776c549af408d58a4fa363eb84a",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_026",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_26.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "82104aa9f75f48251fd6fe70b1ca8d59e47c87980378220ac043f2df089d7d2b",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_027",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_27.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "ae220f165d9634d9590ac65adcacfd4b84f43a31633ac4bd41d149e4224d1eb0",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_028",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_28.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "eadd26f4dd53f29194a8e595a1f01e9440dafbd1a510854544282f746baa6498",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_029",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_29.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "b3640a003d9a7a905fc914387a9044e86f0aa1da510d2a7e0839165a8912d0bc",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_030",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_30.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "ec5a5786b4eb3f278a119b6216262850189e42a3383812246fdc47e6ccb10937",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_031",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_31.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "73d919534bf998427287858a3e004bbcac39b76589367d6533abf5801f8ed4cf",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_032",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_32.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "21edf3244902e115ccd56a33b4757b1754af3a4623a80ff077138cb0bbf98ff6",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_033",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_33.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "d30a599056bc3c22f45fb392fefd6ea5e556b11040dcbf06c7ac1312166c2c21",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_034",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_34.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "1bd17a44deb63e365e27526486ea98334694c1c678b91e96015295996a36ae33",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_035",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_35.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "96411d04129d51442e2b81083a4daaded50231e930668b437d260206746ae296",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_036",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_36.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "f534af45ac1bc2fd1276662fc6f9811830264bd89ed60df49a736b6978b07304",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_037",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_37.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "ab9366c4ab7db2e2aa85f61e952d5f15488b0ebe29e6455cbdd6230fd598798d",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_038",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_38.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "4a6e94b5e51f8f9c5541531ae539aadefde94a0f867b0cee28a5fcc4da355713",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_039",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_39.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5509f51c607cd797dffe0c312fe5e6ef22dbce7527fee5521b65192e68bb90b8",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_040",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_40.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "b85ed55217992ad9a9058aee0367de823e12c853e2a052c3057fa17f2088cbad",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_041",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_41.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "1942de400ead1036e3e83a245a5f18a228b0ab349986e65b04b4631e60a0eca2",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_042",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_42.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "4a2809255b042bbb90895b94b62ccfa44336fc32ec88b431c014e5aeb5cd5b0b",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_043",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_43.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "e0a13d76a65a615c8fff405fd668a5927de53691f2e70fc7957e0000bcbbdf42",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_044",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_44.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "22d8503798c97b7a847800213c8a1b9c4c6b53fbfc974106df72831d15d4a1af",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_045",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_45.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "3dbaf9ad8602616428dfa3214c00406123b194fd1d8a4876df7bf227be8da40b",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_046",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_46.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5e31b8b126c41d7f702c4a6d6e74117eb117dc7b8d20c3ca45c1651f54477aaa",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_047",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_47.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "026860976accd980b0f0e678534be812ec4aea6acb17f296fdc45be1a545f59d",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_048",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_48.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "d15d495ebb9537bd124c7e843ee54cb32c2181752115c26f80331e7381e7fec5",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_049",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_49.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "4a0b54dc2742892686e2f55c9ced8ae59b5c09ababdcd1c3d502417b4695bfc3",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_050",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_50.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "74c653656b1b0eacf2cde50dd4e8c2895150657f37828df5e3912bfe8b053aea",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_051",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_51.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "016c8190ab76a0fdae27e08b82dc074edf08fd51c8fb671d7c29131f2beb8a1d",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_052",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_52.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "9e1400a4fc5fc3b37b9ae0fd44852f8df3f6217c03d1c1dd9d8c3f9701d1341a",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_053",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_53.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "62b85dfdd69129451c6b097b48ab63731748fe7999b117b50c0282b4adb59d31",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_054",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_54.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "a3284e00e7b9e4274fd6f8acf62f25e601a14629a02e250ba45394d4e189b086",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_055",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_55.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "535371395110f60ee10869f6074c5a02a87ede87278f1aa376b51c6a96549192",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_056",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_56.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "a4a998f846651c8e3bcee1f6af7d3a503d3b399d107b0a7bc3b6bdbb8525dd14",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_057",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_57.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "dd5d38c9a79e6b345795fd9911fb58334416bc34c8d692bac4d63c3f585ed2ce",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_058",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_58.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "4bd70162cda98ce352d6832b9cef9a1b37547c703e35f197e3d1fed135557669",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_059",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_59.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "e2a2080c715521e6133ef175e0f1401c1678fa37082852b675aa6c99c971f8c5",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_060",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_60.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "79711bd7f072b6b38c2d1a78a411f46aeab5bad5b42ea56391636e7b65630a82",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_061",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_61.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "f6952309ead26e8c512d3879e68e5f10bd10464a416dbb9c05b15319dbb72090",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_062",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_62.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "9c8d108255c2c99d35c5982453d511ebcde81e71b6168b26ed7d1d136085039c",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_063",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_63.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "a1be5d0293061dd54bbbd5f2e42f5c5e1e887a16c5be92b01e19d2c8df682e5e",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_064",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_64.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "37c8ba174b3947bcaec29837adee1b7b48085778b53e28872a6d5d66f271c729",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_065",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_65.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "aa391d1708e7657b5f4b43e021ef21565855efbbb6d88b7f7882daea7ce99775",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_066",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_66.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "f61c48fcf694ae6f359afd7f4b16c9c50ec1929533384e47498ff8723f6b2a8b",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_067",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_67.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "ddc922b45c774ec06b22b96750410fa2c8759319be4fffc44371107fb58f50ab",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_068",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_68.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "dde0d111b4fb47d9216fce6389be89b94969c2d041adc2b8698a81fe81691ccd",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_069",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_69.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "213678f820595740914b6dd7ce540f3a2622187b85edc0e9f6e51f38011b40c1",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_070",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_70.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5955f6ceab1b466bbf4d2899c83ee8aede10fb20f63901ff8e41a47741819b3f",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_071",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_71.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "3f6fdc22b28c9f06d5ba450791954492bd2ea21d9d90826c4e1a36cdef4e5291",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_072",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_72.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "360bc79f868c898bb1d529c67a5f329e19f348d76bcee304606704c57a2fe2a8",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_073",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_73.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "dfc6118ed18443e818bef9a8f2e6096b5a7fdb3b5d4704b4805228e6dd5ea431",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_074",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_74.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "95e850c32d3c9aac471fba765aaf6172e27818805985be1476cd24541b8148b8",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_075",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_75.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "aa7dead05546a7edffe78f2ee7ac31459e3fcf5b3a7bb9dc34abe0adc41ee3a1",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_076",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_76.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "b3e4045ab47a0dc3d65945d21375b337e9741a270ef454ac33e53f8ff7cdd971",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_077",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_77.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "c2fb334462d64fede72f3a0e9327b07a729eb07c6c86f6cacb6ac60ee7a5bb8b",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_078",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_78.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "0d3457f4d99ec35575a760d7b1e2a89ff65734271bc8f467c28471b384d72433",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_079",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_79.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "27e02c6a4af93721bf22070a14ae3b0083468d58c385b7df0735856821235e65",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_080",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_80.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "3080673bebd9bb1f8699e85ceade0fbaa249895baa35f1cd9815578274b2f942",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_081",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_81.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "9d89c8fa68c796253e241748ed8aa48954e548ff93672c5ba702d7fa38eab6b5",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_082",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_82.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "2270150cd140130eef759ea3506d30460036a2a402a0ba4aa2a90f6049a8bcc2",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_083",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_83.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "873826a3565553fbe3fabf5af492bbc6002da12f7f39c34c7e1184b1e05fe330",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_084",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_84.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "fb1b58bc4e2844704ded1fbf6335297363199b3330937ea968389ff1e9a545f9",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_085",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_85.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5b8136526a144d91b57726f0a8ce7098c9554ae97619f83c11e5230004eea38a",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_086",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_86.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "dfd0963b6064d65e71e69b2181c761966c32cacab45b13279225b97b45bdc6d6",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_087",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_87.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "cf4fbf2797115274210b64d83f37ed4e01f0dec447e2b8695e799807326c343c",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_088",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_88.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "1c2d27d059cdecaf5caa17c8f0c80dd8a9ba29e6725f0e3ec79678f438885237",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_089",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_89.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "2b3195e4ea8f1f8bbb273add1237e133469f2b1f735cd91b7faffe919aafb205",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_090",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_90.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "b5cf6c9275d559b2f5dc33b16e8c787b0e3f0800d0ee11489f7d53ff09575db4",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_091",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_91.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "8ea8c0109792924561761fd53c80ca7a58ee99e57c055a7514d9e011abd7cfe2",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_092",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_92.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "1c419efff3c3f7532e491876110afb520601279cec42a9e0ef31b5987dd9cacc",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_093",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_93.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "4ed9c2643035146867171c5e6b8535b9b2646e731bf980d30fe4e4863f744789",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_094",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_94.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "5e0dd9fb35b2a5719920b2aecfe2c63a70bcd6767e7e71979f8d574db3f7d940",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_095",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_95.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "b70465bc7e2fe12d332af8e7402c785be8754bea34334c5227d705a42d2841cf",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_096",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_96.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "94e28b8252fd9830078b60ec63e2c6fd11bfab0b1350c8bc4b328a8a47f8bbd6",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_097",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_97.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "cbfa8d05f745545064c03500f5a417175de3604c2557b1ace97fcfb5de9e36ac",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_098",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_98.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "d424d6985d64477965455ca819d8498804bf7eaad50e55c48285a997fa95a374",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_099",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_99.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "3bc302a96b1abf9c40febb1bfc3f789a07936d79267e5176d2a2c2e5514301e1",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    },
+    {
+      "joint_id": "joint_100",
+      "task": {
+        "task": 1,
+        "prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "answer_labels": "RFLN",
+        "answer_format": "exactly four letters from R/F/L/N",
+        "segments": [
+          {
+            "position": 1,
+            "start_sample": 798828,
+            "end_sample": 1134828
+          },
+          {
+            "position": 2,
+            "start_sample": 1156428,
+            "end_sample": 1492428
+          },
+          {
+            "position": 3,
+            "start_sample": 1514028,
+            "end_sample": 1850028
+          },
+          {
+            "position": 4,
+            "start_sample": 1871628,
+            "end_sample": 2207628
+          }
+        ],
+        "file": "hipi_100.wav",
+        "sample_rate": 48000,
+        "channels": 1,
+        "subtype": "PCM_24",
+        "duration_seconds": 45.99225,
+        "sha256": "a3b755effb27e735793ca5bff7aef419fce167aae326cce60c6a91126f3e9e44",
+        "tts_voice": "Microsoft David Desktop",
+        "embedded_tts_prompt": "The test sequence contains four segments. Assign one label to each segment: R for rising, F for falling, L for no clear overall trend, or N for noise. Return four letters in order.",
+        "text_prompt_equals_tts": true,
+        "stimulus_start_sample": 798828
+      }
+    }
+  ],
+  "storage_layout": "flat"
+}
