@@ -79,7 +79,7 @@
     </div>
     <div class="instruction-box">
           <strong>You may enter or update your answer while the audio is playing.</strong>
-          You can continue only after the complete audio has finished.
+          The first playback must finish before you can continue. During the optional replay, you may continue at any time.
     </div>
     <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
     <button type="button" class="primary" onclick="showStep('step-practice')">Begin Practice</button>
@@ -110,7 +110,7 @@
     <div class="progress" id="task-progress"></div>
     <h2 id="task-title"></h2>
     <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
-      <div class="instruction-box">Keep the volume at a <strong>comfortable, moderately low level</strong>. If the audio feels uncomfortable, stop and exit the study. <strong>You may enter or update your answer while listening, but you can continue only after the audio has completely finished.</strong></div>
+      <div class="instruction-box">Keep the volume at a <strong>comfortable, moderately low level</strong>. If the audio feels uncomfortable, stop and exit the study. <strong>You may enter or update your answer while listening. The first playback must finish before you can continue; during the optional replay, you may continue at any time.</strong></div>
     <div class="card" id="task-rules"></div>
     <audio id="formal-audio" preload="metadata"></audio>
     <button type="button" id="formal-play" onclick="playFormal()">Play Audio</button>
@@ -125,13 +125,13 @@
 
   <section class="step" id="step-questionnaire">
     <h2>About Your Experience</h2>
-    <div class="question"><strong>1. Satisfaction with the classification task (HIPI)</strong>
+    <div class="question"><strong>1. How satisfied were you with classifying the four sound segments?</strong>
       <label class="option"><input type="radio" name="hipi_satisfaction" value="1"> Very dissatisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="2"> Dissatisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="3"> Neither dissatisfied nor satisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="4"> Satisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="5"> Very satisfied</label>
     </div>
-    <div class="question"><strong>2. Satisfaction with the counting task (YINGCHEN)</strong>
+    <div class="question"><strong>2. How satisfied were you with counting the clearly audible sections?</strong>
       <label class="option"><input type="radio" name="yingchen_satisfaction" value="1"> Very dissatisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="2"> Dissatisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="3"> Neither dissatisfied nor satisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="4"> Satisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="5"> Very satisfied</label>
     </div>
-    <div class="question"><strong>3. Satisfaction with the combined verification (Joint)</strong>
+    <div class="question"><strong>3. How satisfied were you with the overall experience of completing both the classification and counting tasks?</strong>
       <label class="option"><input type="radio" name="joint_satisfaction" value="1"> Very dissatisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="2"> Dissatisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="3"> Neither dissatisfied nor satisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="4"> Satisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="5"> Very satisfied</label>
     </div>
     <div class="question"><strong>4. Did you use any external tool?</strong>
@@ -202,7 +202,8 @@ function renderTask() {
   document.getElementById("answer-label").textContent = t.type === "hipi" ? "Enter your four-letter answer:" : "Enter the number of clearly audible sound sections:";
   const answer = document.getElementById("formal-answer"); answer.value = ""; answer.maxLength = t.type === "hipi" ? 4 : 2; answer.placeholder = t.type === "hipi" ? "RFLN" : "5"; answer.inputMode = t.type === "hipi" ? "text" : "numeric";
   const audio = document.getElementById("formal-audio");
-  audio.src = t.type === "hipi" ? t.url + (t.url.includes("?") ? "&" : "?") + "v=8f35f32" : t.url;
+  const audioVersion = t.type === "hipi" ? "8f35f32" : "ca476a8";
+  audio.src = t.url + (t.url.includes("?") ? "&" : "?") + "v=" + audioVersion;
   audio.load();
   document.getElementById("formal-play").disabled = false; document.getElementById("formal-play").textContent = "Play Audio";
   const status = document.getElementById("formal-status"); status.classList.remove("complete"); status.textContent = "You may replay this audio once";
@@ -213,8 +214,19 @@ function renderTask() {
 function playFormal() {
   if (playCount >= 2) return;
   const audio = document.getElementById("formal-audio"), play = document.getElementById("formal-play"), submit = document.getElementById("formal-submit"), status = document.getElementById("formal-status"), answer = document.getElementById("formal-answer");
-  play.disabled = true; submit.disabled = true; submit.textContent = "Audio Playing"; status.classList.remove("complete"); audio.currentTime = 0;
-  audio.play().then(() => { if (taskStart === null) taskStart = performance.now(); playCount++; status.textContent = playCount === 1 ? "First playback started. One replay available." : "Replay started."; }).catch(() => {
+  const isReplay = audioEnded;
+  play.disabled = true; submit.disabled = true; submit.textContent = isReplay ? "Starting Replay" : "Audio Playing"; status.classList.remove("complete"); audio.currentTime = 0;
+  audio.play().then(() => {
+    if (taskStart === null) taskStart = performance.now();
+    playCount++;
+    if (isReplay) {
+      submit.disabled = false;
+      submit.textContent = taskIndex === tasks.length - 1 ? "Continue" : "Next";
+      status.textContent = "Replay started. You may continue at any time.";
+    } else {
+      status.textContent = "First playback started. Listen to the complete audio.";
+    }
+  }).catch(() => {
     play.disabled = false;
     status.textContent = "Audio could not be played. Please try again.";
     if (audioEnded) {
