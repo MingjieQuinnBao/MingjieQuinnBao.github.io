@@ -201,7 +201,9 @@ function renderTask() {
   document.getElementById("task-rules").innerHTML = t.type === "hipi" ? "Listen for the <strong>overall character</strong> of each of the four sounds. You may enter or update the four letters while listening, in the same order: <strong>R</strong> Rising, <strong>F</strong> Falling, <strong>L</strong> Stable / no clear trend, <strong>N</strong> Noise. Use your <strong>first overall impression</strong>." : "After the spoken instruction, count how many <strong>clearly audible sound sections</strong> you hear. You may enter or update one whole number while listening.";
   document.getElementById("answer-label").textContent = t.type === "hipi" ? "Enter your four-letter answer:" : "Enter the number of clearly audible sound sections:";
   const answer = document.getElementById("formal-answer"); answer.value = ""; answer.maxLength = t.type === "hipi" ? 4 : 2; answer.placeholder = t.type === "hipi" ? "RFLN" : "5"; answer.inputMode = t.type === "hipi" ? "text" : "numeric";
-  const audio = document.getElementById("formal-audio"); audio.src = t.url; audio.load();
+  const audio = document.getElementById("formal-audio");
+  audio.src = t.type === "hipi" ? t.url + (t.url.includes("?") ? "&" : "?") + "v=8f35f32" : t.url;
+  audio.load();
   document.getElementById("formal-play").disabled = false; document.getElementById("formal-play").textContent = "Play Audio";
   const status = document.getElementById("formal-status"); status.classList.remove("complete"); status.textContent = "You may replay this audio once";
   const submit = document.getElementById("formal-submit"); submit.disabled = true; submit.textContent = "Listen to the Complete Audio";
