@@ -1,0 +1,251 @@
+<form id="joint-study-form">
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.55; color: #222; }
+  .study-container { max-width: 760px; margin: 0 auto; padding: 20px; }
+  .step { display: none; }
+  .step.active { display: block; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 18px; margin: 18px 0; background: #fafafa; }
+  .instruction-box { border-left: 4px solid #555; padding: 12px 16px; background: #f6f6f6; margin: 18px 0; }
+  .first-impression { border-left: 5px solid #222; padding: 12px 16px; background: #f1f1f1; font-size: 20px; font-weight: 700; }
+  button { font-size: 16px; padding: 10px 18px; border-radius: 7px; border: 1px solid #777; cursor: pointer; margin-top: 12px; }
+  button.primary { background: #222; color: #fff; border-color: #222; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  .answer-input { width: 100%; max-width: 320px; padding: 12px; margin-top: 8px; font-size: 20px; text-transform: uppercase; }
+  .option { display: block; margin: 8px 0; }
+  .question { margin: 22px 0; }
+  .error { color: #a40000; margin-top: 10px; font-weight: 600; }
+  .status { display: block; margin-top: 12px; color: #555; }
+  .status.complete { padding: 12px 16px; border-left: 5px solid #222; background: #f1f1f1; color: #222; font-size: 18px; font-weight: 700; }
+  .progress { color: #666; font-size: 14px; margin-bottom: 14px; }
+  .small { color: #555; font-size: 14px; }
+</style>
+
+<input type="hidden" name="task_id" value="{{ task.row_data['task_id'] }}">
+<input type="hidden" name="condition" value="{{ task.row_data['condition'] }}">
+<input type="hidden" name="pair_1_id" value="{{ task.row_data['pair_1_id'] }}">
+<input type="hidden" name="hipi_1_id" value="{{ task.row_data['hipi_1_id'] }}">
+<input type="hidden" name="hipi_1_url" value="{{ task.row_data['hipi_1_url'] }}">
+<input type="hidden" name="yingchen_1_id" value="{{ task.row_data['yingchen_1_id'] }}">
+<input type="hidden" name="yingchen_1_url" value="{{ task.row_data['yingchen_1_url'] }}">
+<input type="hidden" name="pair_2_id" value="{{ task.row_data['pair_2_id'] }}">
+<input type="hidden" name="hipi_2_id" value="{{ task.row_data['hipi_2_id'] }}">
+<input type="hidden" name="hipi_2_url" value="{{ task.row_data['hipi_2_url'] }}">
+<input type="hidden" name="yingchen_2_id" value="{{ task.row_data['yingchen_2_id'] }}">
+<input type="hidden" name="yingchen_2_url" value="{{ task.row_data['yingchen_2_url'] }}">
+<input type="hidden" name="study_version" value="joint_practice_v3_comfort_balanced_subset">
+<input type="hidden" name="practice_pair_id" value="pair_043">
+<input type="hidden" name="practice_hipi_id" value="practice_hipi_reference">
+<input type="hidden" name="practice_yingchen_id" value="practice_yingchen_joint_reference">
+
+<div id="measurement-fields"></div>
+
+<div class="study-container">
+  <section class="step active" id="step-intro">
+    <h1>Combined Audio Perception Study</h1>
+    <p>You will complete two practice examples and two combined audio challenges. The study takes about 7 minutes.</p>
+    <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
+    <div class="instruction-box">
+      <strong>Before you begin:</strong>
+      <ul>
+        <li>Use headphones or earphones in a quiet environment.</li>
+        <li>Set the volume to a <strong>comfortable, moderately low level</strong>.</li>
+        <li><strong>Some audio may feel uncomfortable.</strong> If you experience discomfort, stop and exit the study.</li>
+        <li>Do not use audio-analysis software, AI assistants, or other external tools.</li>
+        <li>Your compensation does not depend on whether your answers are correct.</li>
+      </ul>
+    </div>
+    <label class="option"><input type="checkbox" id="consent" name="consent" value="yes"> I am at least 18 years old and voluntarily agree to participate.</label>
+    <div class="error" id="intro-error"></div>
+    <button type="button" class="primary" onclick="startStudy()">Continue</button>
+  </section>
+
+  <section class="step" id="step-instructions">
+    <h2>Task Instructions</h2>
+    <p>Each combined challenge has two different audio tasks.</p>
+    <div class="card">
+      <strong>Pattern Task</strong><br><br>
+      You will hear <strong>four sounds in order</strong>. Classify the overall
+      character of each sound and enter <strong>four letters in the same order</strong>.<br><br>
+      <strong>R</strong> = Rising, <strong>F</strong> = Falling,<br>
+      <strong>L</strong> = Stable / no clear trend, <strong>N</strong> = Noise.
+    </div>
+    <div class="card">
+      <strong>Section Count Task</strong><br><br>
+      After the spoken instruction, count how many <strong>clearly audible sound sections</strong>
+      you hear. Enter one whole number.
+    </div>
+    <div class="instruction-box">
+          <strong>You may enter or update your answer while the audio is playing.</strong>
+          You can continue only after the complete audio has finished.
+    </div>
+    <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
+    <button type="button" class="primary" onclick="showStep('step-practice')">Begin Practice</button>
+  </section>
+
+  <section class="step" id="step-practice">
+    <div class="progress">Practice</div>
+    <h2>Practice Examples</h2>
+    <p class="first-impression">Follow the shown answers using your first listening impression.</p>
+    <div class="card">
+      <strong>Pattern Task practice answer: FNRL</strong><br>
+      Falling, Noise, Rising, Stable / no clear trend
+      <br><audio id="practice-hipi" preload="metadata" src="https://mingjiequinnbao.github.io/hipi/practice_hipi_reference.wav"></audio>
+      <button type="button" id="practice-hipi-play" onclick="playPractice('hipi')">Play Pattern Practice</button>
+      <span class="status" id="practice-hipi-status">Listen to the complete audio</span>
+    </div>
+    <div class="card">
+      <strong>Section Count Task practice answer: 4</strong><br>
+      Four clearly audible sound sections can be heard after the spoken instruction.
+      <br><audio id="practice-yingchen" preload="metadata" src="https://mingjiequinnbao.github.io/yingchen/practice_yingchen_joint_reference.wav"></audio>
+      <button type="button" id="practice-yingchen-play" onclick="playPractice('yingchen')">Play Section Count Practice</button>
+      <span class="status" id="practice-yingchen-status">Listen to the complete audio</span>
+    </div>
+    <button type="button" class="primary" id="practice-continue" onclick="beginFormal()" disabled>Complete Both Practice Audios</button>
+  </section>
+
+  <section class="step" id="step-task">
+    <div class="progress" id="task-progress"></div>
+    <h2 id="task-title"></h2>
+    <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
+      <div class="instruction-box">Keep the volume at a <strong>comfortable, moderately low level</strong>. If the audio feels uncomfortable, stop and exit the study. <strong>You may enter or update your answer while listening, but you can continue only after the audio has completely finished.</strong></div>
+    <div class="card" id="task-rules"></div>
+    <audio id="formal-audio" preload="metadata"></audio>
+    <button type="button" id="formal-play" onclick="playFormal()">Play Audio</button>
+    <span class="status" id="formal-status">You may replay this audio once</span>
+    <div class="question">
+      <label for="formal-answer"><strong id="answer-label"></strong></label>
+      <input id="formal-answer" class="answer-input" type="text" autocomplete="off">
+      <div class="error" id="formal-error"></div>
+    </div>
+    <button type="button" class="primary" id="formal-submit" onclick="submitFormal()" disabled>Listen to the Complete Audio</button>
+  </section>
+
+  <section class="step" id="step-questionnaire">
+    <h2>About Your Experience</h2>
+    <div class="question"><strong>1. Satisfaction with the classification task (HIPI)</strong>
+      <label class="option"><input type="radio" name="hipi_satisfaction" value="1"> Very dissatisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="2"> Dissatisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="3"> Neither dissatisfied nor satisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="4"> Satisfied</label><label class="option"><input type="radio" name="hipi_satisfaction" value="5"> Very satisfied</label>
+    </div>
+    <div class="question"><strong>2. Satisfaction with the counting task (YINGCHEN)</strong>
+      <label class="option"><input type="radio" name="yingchen_satisfaction" value="1"> Very dissatisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="2"> Dissatisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="3"> Neither dissatisfied nor satisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="4"> Satisfied</label><label class="option"><input type="radio" name="yingchen_satisfaction" value="5"> Very satisfied</label>
+    </div>
+    <div class="question"><strong>3. Satisfaction with the combined verification (Joint)</strong>
+      <label class="option"><input type="radio" name="joint_satisfaction" value="1"> Very dissatisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="2"> Dissatisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="3"> Neither dissatisfied nor satisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="4"> Satisfied</label><label class="option"><input type="radio" name="joint_satisfaction" value="5"> Very satisfied</label>
+    </div>
+    <div class="question"><strong>4. Did you use any external tool?</strong>
+      <label class="option"><input type="radio" name="external_tool_used" value="no"> No</label><label class="option"><input type="radio" name="external_tool_used" value="yes"> Yes</label>
+    </div>
+    <label for="optional_comment"><strong>Optional comment</strong></label><br>
+    <textarea id="optional_comment" name="optional_comment" rows="4" style="width:100%"></textarea>
+    <div class="error" id="questionnaire-error"></div>
+    <button type="button" class="primary" onclick="finishQuestionnaire()">Continue</button>
+  </section>
+
+  <section class="step" id="step-submit">
+    <h2>Ready to Submit</h2>
+    <p>Thank you for completing the study.</p>
+    <button type="submit" class="primary" id="submit-button">Submit</button>
+  </section>
+</div>
+
+<script>
+const studyStart = performance.now();
+const row = {
+  pair1: "{{ task.row_data['pair_1_id'] }}", hipi1: "{{ task.row_data['hipi_1_url'] }}", yingchen1: "{{ task.row_data['yingchen_1_url'] }}",
+  pair2: "{{ task.row_data['pair_2_id'] }}", hipi2: "{{ task.row_data['hipi_2_url'] }}", yingchen2: "{{ task.row_data['yingchen_2_url'] }}"
+};
+const tasks = [
+  { pair: 1, type: "hipi", url: row.hipi1 }, { pair: 1, type: "yingchen", url: row.yingchen1 },
+  { pair: 2, type: "hipi", url: row.hipi2 }, { pair: 2, type: "yingchen", url: row.yingchen2 }
+];
+let taskIndex = 0;
+let taskStart = null;
+let playCount = 0;
+let audioEnded = false;
+const practiceDone = { hipi: false, yingchen: false };
+const practiceStart = { hipi: null, yingchen: null };
+const practicePlays = { hipi: 0, yingchen: 0 };
+
+function hidden(name, value) {
+  const input = document.createElement("input"); input.type = "hidden"; input.name = name; input.id = name; input.value = value || "";
+  document.getElementById("measurement-fields").appendChild(input);
+}
+["hipi_1_answer_raw","hipi_1_answer_normalized","yingchen_1_answer_raw","yingchen_1_answer_normalized","hipi_2_answer_raw","hipi_2_answer_normalized","yingchen_2_answer_raw","yingchen_2_answer_normalized","hipi_1_time_ms","yingchen_1_time_ms","hipi_2_time_ms","yingchen_2_time_ms","hipi_1_play_count","yingchen_1_play_count","hipi_2_play_count","yingchen_2_play_count","joint_pair_1_time_ms","joint_pair_2_time_ms","practice_hipi_time_ms","practice_yingchen_time_ms","practice_hipi_play_count","practice_yingchen_play_count","total_study_time_ms","user_agent","screen_width","screen_height"].forEach(n => hidden(n));
+document.getElementById("user_agent").value = navigator.userAgent;
+document.getElementById("screen_width").value = screen.width;
+document.getElementById("screen_height").value = screen.height;
+
+function showStep(id) { document.querySelectorAll(".step").forEach(s => s.classList.remove("active")); document.getElementById(id).classList.add("active"); scrollTo(0,0); }
+function startStudy() { if (!document.getElementById("consent").checked) { document.getElementById("intro-error").textContent = "Please confirm your consent."; return; } showStep("step-instructions"); }
+
+function playPractice(type) {
+  if (practicePlays[type] >= 2) return;
+  const audio = document.getElementById("practice-" + type), button = document.getElementById("practice-" + type + "-play"), status = document.getElementById("practice-" + type + "-status");
+  button.disabled = true; audio.currentTime = 0; status.classList.remove("complete");
+  audio.play().then(() => { if (practiceStart[type] === null) practiceStart[type] = performance.now(); practicePlays[type]++; document.getElementById("practice_" + type + "_play_count").value = practicePlays[type]; status.textContent = practicePlays[type] === 1 ? "First playback started. One replay available." : "Replay started."; }).catch(() => { button.disabled = false; status.textContent = "Audio could not be played. Please try again."; });
+  audio.onended = () => {
+    if (!practiceDone[type]) document.getElementById("practice_" + type + "_time_ms").value = Math.round(performance.now() - practiceStart[type]);
+    practiceDone[type] = true; status.classList.add("complete"); status.textContent = "Practice audio complete.";
+    if (practicePlays[type] < 2) { button.disabled = false; button.textContent = "Replay Practice Audio"; }
+    if (practiceDone.hipi && practiceDone.yingchen) { const next = document.getElementById("practice-continue"); next.disabled = false; next.textContent = "Begin Formal Tasks"; }
+  };
+}
+
+function beginFormal() { taskIndex = 0; renderTask(); showStep("step-task"); }
+function renderTask() {
+  const t = tasks[taskIndex]; playCount = 0; audioEnded = false; taskStart = null;
+  document.getElementById("task-progress").textContent = "Combined Challenge " + t.pair + " of 2 - " + (t.type === "hipi" ? "Pattern Task" : "Section Count Task");
+  document.getElementById("task-title").textContent = t.type === "hipi" ? "Classify Four Sounds" : "Count Audio Sections";
+  document.getElementById("task-rules").innerHTML = t.type === "hipi" ? "Listen for the <strong>overall character</strong> of each of the four sounds. You may enter or update the four letters while listening, in the same order: <strong>R</strong> Rising, <strong>F</strong> Falling, <strong>L</strong> Stable / no clear trend, <strong>N</strong> Noise. Use your <strong>first overall impression</strong>." : "After the spoken instruction, count how many <strong>clearly audible sound sections</strong> you hear. You may enter or update one whole number while listening.";
+  document.getElementById("answer-label").textContent = t.type === "hipi" ? "Enter your four-letter answer:" : "Enter the number of clearly audible sound sections:";
+  const answer = document.getElementById("formal-answer"); answer.value = ""; answer.maxLength = t.type === "hipi" ? 4 : 2; answer.placeholder = t.type === "hipi" ? "RFLN" : "5"; answer.inputMode = t.type === "hipi" ? "text" : "numeric";
+  const audio = document.getElementById("formal-audio"); audio.src = t.url; audio.load();
+  document.getElementById("formal-play").disabled = false; document.getElementById("formal-play").textContent = "Play Audio";
+  const status = document.getElementById("formal-status"); status.classList.remove("complete"); status.textContent = "You may replay this audio once";
+  const submit = document.getElementById("formal-submit"); submit.disabled = true; submit.textContent = "Listen to the Complete Audio";
+  document.getElementById("formal-error").textContent = "";
+}
+
+function playFormal() {
+  if (playCount >= 2) return;
+  const audio = document.getElementById("formal-audio"), play = document.getElementById("formal-play"), submit = document.getElementById("formal-submit"), status = document.getElementById("formal-status"), answer = document.getElementById("formal-answer");
+  play.disabled = true; submit.disabled = true; submit.textContent = "Audio Playing"; status.classList.remove("complete"); audio.currentTime = 0;
+  audio.play().then(() => { if (taskStart === null) taskStart = performance.now(); playCount++; status.textContent = playCount === 1 ? "First playback started. One replay available." : "Replay started."; }).catch(() => {
+    play.disabled = false;
+    status.textContent = "Audio could not be played. Please try again.";
+    if (audioEnded) {
+      submit.disabled = false;
+      submit.textContent = taskIndex === tasks.length - 1 ? "Continue" : "Next";
+    } else {
+      submit.textContent = "Listen to the Complete Audio";
+    }
+  });
+  audio.onended = () => { audioEnded = true; submit.disabled = false; submit.textContent = taskIndex === tasks.length - 1 ? "Continue" : "Next"; status.classList.add("complete"); status.textContent = "Audio complete. Check your answer below, then continue."; answer.focus(); if (playCount < 2) { play.disabled = false; play.textContent = "Replay Audio"; } };
+}
+
+function submitFormal() {
+  const t = tasks[taskIndex], raw = document.getElementById("formal-answer").value, normalized = t.type === "hipi" ? raw.trim().toUpperCase().replace(/\s+/g, "") : raw.trim();
+  if (!audioEnded) return;
+  if (t.type === "hipi" ? !/^[RFLN]{4}$/.test(normalized) : !/^(?:[1-9]|[1-9][0-9])$/.test(normalized)) { document.getElementById("formal-error").textContent = t.type === "hipi" ? "Enter exactly four letters using R, F, L, and N." : "Enter one whole number greater than zero."; return; }
+  const prefix = t.type + "_" + t.pair;
+  document.getElementById(prefix + "_answer_raw").value = raw;
+  document.getElementById(prefix + "_answer_normalized").value = normalized;
+  document.getElementById(prefix + "_time_ms").value = Math.round(performance.now() - taskStart);
+  document.getElementById(prefix + "_play_count").value = playCount;
+  if (t.type === "yingchen") {
+    const hipiTime = Number(document.getElementById("hipi_" + t.pair + "_time_ms").value);
+    document.getElementById("joint_pair_" + t.pair + "_time_ms").value = hipiTime + Number(document.getElementById(prefix + "_time_ms").value);
+  }
+  document.getElementById("formal-audio").pause(); taskIndex++;
+  if (taskIndex < tasks.length) renderTask(); else showStep("step-questionnaire");
+}
+
+function finishQuestionnaire() {
+  for (const name of ["hipi_satisfaction","yingchen_satisfaction","joint_satisfaction","external_tool_used"]) { if (!document.querySelector('input[name="' + name + '"]:checked')) { document.getElementById("questionnaire-error").textContent = "Please answer all required questions."; return; } }
+  document.getElementById("total_study_time_ms").value = Math.round(performance.now() - studyStart); showStep("step-submit");
+}
+document.getElementById("joint-study-form").addEventListener("submit", () => { document.getElementById("total_study_time_ms").value = Math.round(performance.now() - studyStart); document.getElementById("submit-button").disabled = true; });
+</script>
+</form>

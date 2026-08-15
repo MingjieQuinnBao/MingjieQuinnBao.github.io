@@ -1,0 +1,1181 @@
+﻿<form id="yingchen-study-form">
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.55;
+    color: #222;
+  }
+
+  .study-container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .step {
+    display: none;
+  }
+
+  .step.active {
+    display: block;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 18px 0;
+    background: #fafafa;
+  }
+
+  .instruction-box {
+    border-left: 4px solid #555;
+    padding: 12px 16px;
+    background: #f6f6f6;
+    margin: 18px 0;
+  }
+
+  .first-impression {
+    border-left: 5px solid #222;
+    padding: 12px 16px;
+    margin: 18px 0;
+    background: #f1f1f1;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .legend-row {
+    margin: 10px 0;
+  }
+
+  .letter {
+    display: inline-block;
+    min-width: 32px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 7px;
+    border: 1px solid #777;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .primary {
+    font-weight: 600;
+  }
+
+  .answer-input {
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    padding: 10px 12px;
+    margin: 12px 0;
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .audio-status {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .audio-status.complete {
+    display: block;
+    margin: 14px 0 0;
+    padding: 12px 16px;
+    border-left: 5px solid #222;
+    background: #f1f1f1;
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .error {
+    color: #b00020;
+    font-size: 14px;
+    min-height: 22px;
+    margin-top: 6px;
+  }
+
+  .question {
+    margin: 22px 0;
+  }
+
+  .question label.option {
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .small {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .progress {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 14px;
+  }
+</style>
+
+
+<!-- =========================================================
+     CSV METADATA
+========================================================= -->
+
+<input type="hidden"
+       name="task_id"
+       value="{{ task.row_data['task_id'] }}">
+
+<input type="hidden"
+       name="condition"
+       value="{{ task.row_data['condition'] }}">
+
+<input type="hidden"
+       name="audio_1_id"
+       value="{{ task.row_data['audio_1_id'] }}">
+
+<input type="hidden"
+       name="audio_1_url"
+       value="{{ task.row_data['audio_1_url'] }}">
+
+<input type="hidden"
+       name="audio_2_id"
+       value="{{ task.row_data['audio_2_id'] }}">
+
+<input type="hidden"
+       name="audio_2_url"
+       value="{{ task.row_data['audio_2_url'] }}">
+
+<input type="hidden"
+       name="study_version"
+       value="yingchen_practice_v2">
+
+<input type="hidden"
+       name="practice_audio_id"
+       value="practice_yingchen_reference">
+
+<input type="hidden"
+       name="practice_audio_url"
+       value="https://mingjiequinnbao.github.io/yingchen/practice_yingchen_reference.wav">
+
+
+<!-- =========================================================
+     MEASUREMENT FIELDS
+========================================================= -->
+
+<input type="hidden"
+       name="answer_1_normalized"
+       id="answer_1_normalized">
+
+<input type="hidden"
+       name="answer_2_normalized"
+       id="answer_2_normalized">
+
+<input type="hidden"
+       name="challenge_1_time_ms"
+       id="challenge_1_time_ms">
+
+<input type="hidden"
+       name="challenge_2_time_ms"
+       id="challenge_2_time_ms">
+
+<input type="hidden"
+       name="challenge_1_play_count"
+       id="challenge_1_play_count">
+
+<input type="hidden"
+       name="challenge_2_play_count"
+       id="challenge_2_play_count">
+
+<input type="hidden"
+       name="practice_time_ms"
+       id="practice_time_ms">
+
+<input type="hidden"
+       name="practice_play_count"
+       id="practice_play_count">
+
+<input type="hidden"
+       name="total_study_time_ms"
+       id="total_study_time_ms">
+
+<input type="hidden"
+       name="user_agent"
+       id="user_agent">
+
+<input type="hidden"
+       name="screen_width"
+       id="screen_width">
+
+<input type="hidden"
+       name="screen_height"
+       id="screen_height">
+
+
+<div class="study-container">
+
+
+<!-- =========================================================
+     STEP 1: CONSENT + INSTRUCTIONS
+========================================================= -->
+
+<section class="step active" id="step-intro">
+
+  <h1>Audio Perception Study</h1>
+
+  <p>
+    You will complete one practice task and two formal audio tasks.
+    The study takes about 4 minutes.
+  </p>
+
+  <p class="first-impression">
+    Use your first listening impression. Do not carefully analyze the audio.
+  </p>
+
+  <p>No special knowledge is needed.</p>
+
+  <div class="instruction-box">
+
+    <strong>Before you begin:</strong>
+
+    <ul>
+      <li>
+        Please use <strong>headphones or earphones</strong>.
+      </li>
+
+      <li>
+        Use a <strong>quiet environment</strong>.
+      </li>
+
+      <li>
+        Set the volume to a <strong>comfortable, moderately low level</strong>.
+      </li>
+
+      <li>
+        Keep approximately the same moderately low volume throughout the study.
+      </li>
+
+      <li>
+        Please do not use audio-analysis software, spectrum analyzers,
+        AI assistants, or other external tools.
+      </li>
+
+      <li>
+        Your compensation does <strong>not</strong> depend on whether
+        your answers are correct.
+      </li>
+    </ul>
+
+  </div>
+
+  <p>
+    Participation is voluntary. Stop immediately if the audio feels uncomfortable.
+    The study does not ask for your name, email address,
+    phone number, or other directly identifying information.
+  </p>
+
+  <div class="question">
+
+    <label class="option">
+
+      <input type="checkbox"
+             id="consent"
+             name="consent"
+             value="yes">
+
+      I am at least 18 years old, have read the information above,
+      and voluntarily agree to participate.
+
+    </label>
+
+  </div>
+
+  <div class="error" id="intro-error"></div>
+
+  <button type="button"
+          class="primary"
+          onclick="startStudy()">
+
+    Continue
+
+  </button>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 2: HIPI INSTRUCTIONS
+========================================================= -->
+
+<section class="step" id="step-instructions">
+  <h2>Task Instructions</h2>
+  <p>Each audio contains several distinct, clearly audible sequences.</p>
+  <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
+  <div class="card">
+    Count the <strong>number of distinct, clearly audible sequences</strong>.
+    Count each continuous sequence once. A very brief interruption within one
+    sequence does not create a new sequence.
+    Enter one whole number, such as <strong>5</strong>.
+  </div>
+  <p class="small">
+    Do not count the spoken instruction. Begin counting after the pause that
+    follows the instruction.
+  </p>
+  <button type="button" class="primary" onclick="beginPractice()">Begin Practice</button>
+</section>
+
+
+<!-- =========================================================
+     STEP 3: PRACTICE
+========================================================= -->
+
+<section class="step" id="step-practice">
+  <div class="progress">Practice Task</div>
+  <h2>Practice Audio</h2>
+  <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
+  <p>This practice does not affect your compensation.</p>
+  <div class="instruction-box">
+    Before playing, set your volume to a <strong>comfortable, moderately low level</strong>.
+    Stop immediately if the audio feels uncomfortable.
+  </div>
+  <div class="card">
+    Count the distinct, clearly audible sequences.<br><br>
+    <strong>Practice answer: 5 sequences</strong><br>
+    Five clearly audible sequences can be heard. A very brief interruption
+    within one sequence does not make two sequences.
+  </div>
+  <audio id="practice-audio" preload="metadata"
+         src="https://mingjiequinnbao.github.io/yingchen/practice_yingchen_reference.wav"></audio>
+  <button type="button" id="practice-play-button" onclick="playPracticeAudio()">Play Practice Audio</button>
+  <span class="audio-status" id="practice-play-status">You may replay this audio once</span>
+  <button type="button" class="primary" id="practice-continue-button"
+          onclick="continueToFormalTasks()" disabled>Listen to the Complete Practice Audio</button>
+</section>
+
+
+<!-- =========================================================
+     STEP 4: FORMAL HIPI 1
+========================================================= -->
+
+<section class="step" id="step-formal-1">
+  <div class="progress">Formal Audio Task 1 of 2</div>
+  <h2>Audio Task 1</h2>
+  <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
+  <p>Play the complete audio and count the distinct, clearly audible sequences.</p>
+  <div class="instruction-box">
+    Keep the volume at a <strong>comfortable, moderately low level</strong>.
+    Stop immediately if the audio feels uncomfortable.
+  </div>
+  <audio id="formal-audio-1" preload="metadata"
+         src="{{ task.row_data['audio_1_url'] }}"></audio>
+  <button type="button" id="play-button-1" onclick="playFormalAudio(1)">Play Audio</button>
+  <span class="audio-status" id="play-status-1">You may replay this audio once</span>
+  <br><br>
+  <label for="answer-1"><strong>Enter the number of sequences:</strong></label>
+  <input type="text" id="answer-1" name="answer_1_raw" class="answer-input"
+         inputmode="numeric" pattern="[0-9]*" maxlength="2" autocomplete="off" placeholder="5">
+  <div class="error" id="answer-error-1"></div>
+  <button type="button" class="primary" id="answer-submit-1"
+          onclick="finishFormalTask(1)" disabled>Listen to the Complete Audio</button>
+</section>
+
+
+<!-- =========================================================
+     STEP 4: FORMAL HIPI 2
+========================================================= -->
+
+<section class="step" id="step-formal-2">
+  <div class="progress">Formal Audio Task 2 of 2</div>
+  <h2>Audio Task 2</h2>
+  <p class="first-impression">Use your first listening impression. Do not carefully analyze the audio.</p>
+  <p>Play the complete audio and count the distinct, clearly audible sequences.</p>
+  <div class="instruction-box">
+    Keep the volume at a <strong>comfortable, moderately low level</strong>.
+    Stop immediately if the audio feels uncomfortable.
+  </div>
+  <audio id="formal-audio-2" preload="metadata"
+         src="{{ task.row_data['audio_2_url'] }}"></audio>
+  <button type="button" id="play-button-2" onclick="playFormalAudio(2)">Play Audio</button>
+  <span class="audio-status" id="play-status-2">You may replay this audio once</span>
+  <br><br>
+  <label for="answer-2"><strong>Enter the number of sequences:</strong></label>
+  <input type="text" id="answer-2" name="answer_2_raw" class="answer-input"
+         inputmode="numeric" pattern="[0-9]*" maxlength="2" autocomplete="off" placeholder="5">
+  <div class="error" id="answer-error-2"></div>
+  <button type="button" class="primary" id="answer-submit-2"
+          onclick="finishFormalTask(2)" disabled>Listen to the Complete Audio</button>
+</section>
+
+
+<!-- =========================================================
+     STEP 5: POST-TASK QUESTIONNAIRE
+========================================================= -->
+
+<section class="step" id="step-questionnaire">
+
+  <h2>About Your Experience</h2>
+
+  <div class="question">
+
+    <strong>
+      1. Overall, how difficult was the audio task?
+    </strong>
+
+    <label class="option">
+      <input type="radio"
+             name="difficulty"
+             value="1">
+      Very easy
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="difficulty"
+             value="2">
+      Easy
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="difficulty"
+             value="3">
+      Neither easy nor difficult
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="difficulty"
+             value="4">
+      Difficult
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="difficulty"
+             value="5">
+      Very difficult
+    </label>
+
+  </div>
+
+
+  <div class="question">
+
+    <strong>
+      2. How much listening discomfort did you experience?
+    </strong>
+
+    <label class="option">
+      <input type="radio"
+             name="discomfort"
+             value="1">
+      None
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="discomfort"
+             value="2">
+      Very little
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="discomfort"
+             value="3">
+      Some
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="discomfort"
+             value="4">
+      Considerable
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="discomfort"
+             value="5">
+      Severe
+    </label>
+
+  </div>
+
+
+  <div class="question">
+
+    <strong>
+      3. If a website used this type of audio verification during
+      login or registration, how willing would you be to use it again?
+    </strong>
+
+    <label class="option">
+      <input type="radio"
+             name="willingness"
+             value="1">
+      Very unwilling
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="willingness"
+             value="2">
+      Unwilling
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="willingness"
+             value="3">
+      Neither unwilling nor willing
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="willingness"
+             value="4">
+      Willing
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="willingness"
+             value="5">
+      Very willing
+    </label>
+
+  </div>
+
+
+  <div class="question">
+
+    <strong>
+      Optional: Was there anything about the audio or task
+      that made it particularly easy or difficult?
+    </strong>
+
+    <textarea name="optional_comment"></textarea>
+
+  </div>
+
+
+  <div class="question">
+
+    <strong>
+      Did you use any external tool to analyze the formal audio,
+      such as audio-analysis software, a spectrum analyzer,
+      or an AI assistant?
+    </strong>
+
+    <label class="option">
+      <input type="radio"
+             name="external_tool_used"
+             value="no">
+      No
+    </label>
+
+    <label class="option">
+      <input type="radio"
+             name="external_tool_used"
+             value="yes">
+      Yes
+    </label>
+
+  </div>
+
+  <div class="error"
+       id="questionnaire-error">
+  </div>
+
+  <button type="button"
+          class="primary"
+          onclick="finishQuestionnaire()">
+
+    Continue
+
+  </button>
+
+</section>
+
+
+<!-- =========================================================
+     STEP 6: SUBMIT
+========================================================= -->
+
+<section class="step" id="step-submit">
+
+  <h2>Study Complete</h2>
+
+  <p>
+    Thank you for participating.
+  </p>
+
+  <p>
+    Your answers are valuable whether they are correct or incorrect,
+    and accuracy does not affect your compensation.
+  </p>
+
+  <button type="submit"
+          class="primary"
+          id="submit-button">
+
+    Submit Task
+
+  </button>
+
+</section>
+
+
+</div>
+
+
+<script>
+
+/* ============================================================
+   STATE
+============================================================ */
+
+const studyStartTime = performance.now();
+
+let practicePlayCount = 0;
+let practiceStartTime = null;
+let practiceHasEnded = false;
+
+let formalPlayCount = {
+  1: 0,
+  2: 0
+};
+
+let formalStartTime = {
+  1: null,
+  2: null
+};
+
+let formalCompleted = {
+  1: false,
+  2: false
+};
+
+let formalHasEnded = {
+  1: false,
+  2: false
+};
+
+
+/* ============================================================
+   DEVICE METADATA
+============================================================ */
+
+document.getElementById("user_agent").value =
+  navigator.userAgent;
+
+document.getElementById("screen_width").value =
+  window.screen.width;
+
+document.getElementById("screen_height").value =
+  window.screen.height;
+
+
+/* ============================================================
+   NAVIGATION
+============================================================ */
+
+function showStep(stepId) {
+
+  document.querySelectorAll(".step").forEach(function(step) {
+    step.classList.remove("active");
+  });
+
+  document.getElementById(stepId).classList.add("active");
+
+  window.scrollTo(0, 0);
+}
+
+
+function startStudy() {
+
+  const consent =
+    document.getElementById("consent");
+
+  if (!consent.checked) {
+
+    document.getElementById(
+      "intro-error"
+    ).textContent =
+      "Please confirm that you agree to participate before continuing.";
+
+    return;
+  }
+
+  document.getElementById(
+    "intro-error"
+  ).textContent = "";
+
+  showStep("step-instructions");
+}
+
+
+/* ============================================================
+   YINGCHEN RESPONSE
+============================================================ */
+
+function normalizeYingchenAnswer(value) {
+
+  return value.trim();
+}
+
+
+function validYingchenAnswer(value) {
+
+  return /^(?:[1-9]|[1-9][0-9])$/.test(value);
+}
+
+
+/* ============================================================
+   PRACTICE
+============================================================ */
+
+function beginPractice() {
+
+  showStep("step-practice");
+}
+
+
+function playPracticeAudio() {
+
+  const audio =
+    document.getElementById("practice-audio");
+
+  const button =
+    document.getElementById("practice-play-button");
+
+  if (practicePlayCount >= 2) {
+    return;
+  }
+
+  button.disabled = true;
+  audio.currentTime = 0;
+
+  audio.play()
+    .then(function() {
+
+      if (practiceStartTime === null) {
+        practiceStartTime = performance.now();
+      }
+
+      practicePlayCount++;
+
+      document.getElementById(
+        "practice_play_count"
+      ).value = practicePlayCount;
+
+      document.getElementById(
+        "practice-play-status"
+      ).textContent =
+        practicePlayCount === 1
+          ? "First playback started. One replay available."
+          : "Replay started. No replays remaining.";
+    })
+    .catch(function() {
+
+      button.disabled = false;
+
+      document.getElementById(
+        "practice-play-status"
+      ).textContent =
+        "Audio could not be played. Please try again.";
+    });
+
+  audio.onended = function() {
+
+    practiceHasEnded = true;
+
+    if (!document.getElementById(
+      "practice_time_ms"
+    ).value) {
+      document.getElementById(
+        "practice_time_ms"
+      ).value = Math.round(
+        performance.now() - practiceStartTime
+      );
+    }
+
+    const continueButton =
+      document.getElementById("practice-continue-button");
+
+    continueButton.disabled = false;
+    continueButton.textContent = "Begin Formal Tasks";
+
+    if (practicePlayCount < 2) {
+      button.disabled = false;
+      button.textContent = "Replay Practice Audio";
+
+      document.getElementById(
+        "practice-play-status"
+      ).textContent =
+        "First playback complete. One replay available.";
+    } else {
+      button.disabled = true;
+
+      document.getElementById(
+        "practice-play-status"
+      ).textContent =
+        "Replay complete. No replays remaining.";
+    }
+  };
+}
+
+
+function continueToFormalTasks() {
+
+  if (!practiceHasEnded) {
+    return;
+  }
+
+  const audio =
+    document.getElementById("practice-audio");
+
+  audio.pause();
+  audio.currentTime = 0;
+
+  showStep("step-formal-1");
+}
+
+
+/* ============================================================
+   AUDIO PLAYBACK
+============================================================ */
+
+function playFormalAudio(taskNumber) {
+
+  const audio =
+    document.getElementById(
+      "formal-audio-" + taskNumber
+    );
+
+  const button =
+    document.getElementById(
+      "play-button-" + taskNumber
+    );
+
+  const status = document.getElementById(
+    "play-status-" + taskNumber
+  );
+
+  const submitButton = document.getElementById(
+    "answer-submit-" + taskNumber
+  );
+
+  if (formalPlayCount[taskNumber] >= 2) {
+    return;
+  }
+
+  button.disabled = true;
+  submitButton.disabled = true;
+  submitButton.textContent = "Audio Playing";
+  status.classList.remove("complete");
+
+  audio.currentTime = 0;
+
+  audio.play()
+    .then(function() {
+
+      if (formalStartTime[taskNumber] === null) {
+
+        /*
+          Primary CAPTCHA timing starts at the participant's
+          FIRST successful audio playback.
+        */
+
+        formalStartTime[taskNumber] =
+          performance.now();
+      }
+
+      formalPlayCount[taskNumber]++;
+
+      document.getElementById(
+        "challenge_" +
+        taskNumber +
+        "_play_count"
+      ).value =
+        formalPlayCount[taskNumber];
+
+      status.textContent =
+        formalPlayCount[taskNumber] === 1
+          ? "First playback started. One replay available."
+          : "Replay started. No replays remaining.";
+
+    })
+    .catch(function() {
+
+      button.disabled = false;
+
+      document.getElementById(
+        "play-status-" + taskNumber
+      ).textContent =
+        "Audio could not be played. Please try again.";
+
+    });
+
+
+  audio.onended = function() {
+
+    formalHasEnded[taskNumber] = true;
+
+    const status = document.getElementById(
+      "play-status-" + taskNumber
+    );
+
+    const submitButton = document.getElementById(
+      "answer-submit-" + taskNumber
+    );
+
+    submitButton.disabled = false;
+    submitButton.textContent =
+      taskNumber === 1 ? "Next" : "Continue";
+
+    status.classList.add("complete");
+
+    if (formalPlayCount[taskNumber] < 2) {
+
+      button.disabled = false;
+
+      if (formalHasEnded[taskNumber]) {
+        submitButton.disabled = false;
+        submitButton.textContent =
+          taskNumber === 1 ? "Next" : "Continue";
+      } else {
+        submitButton.textContent = "Listen to the Complete Audio";
+      }
+
+      button.textContent =
+        "Replay Audio";
+
+      status.textContent =
+        "Audio complete. Enter your answer below. One replay is available.";
+
+    } else {
+
+      button.disabled = true;
+
+      button.textContent =
+        "Maximum plays reached";
+
+      status.textContent =
+        "Replay complete. Enter your answer below.";
+    }
+  };
+}
+
+
+/* ============================================================
+   FORMAL TASK SUBMISSION
+============================================================ */
+
+function finishFormalTask(taskNumber) {
+
+  if (formalCompleted[taskNumber]) {
+    return;
+  }
+
+  const raw =
+    document.getElementById(
+      "answer-" + taskNumber
+    ).value;
+
+  const normalized =
+    normalizeYingchenAnswer(raw);
+
+  const error =
+    document.getElementById(
+      "answer-error-" + taskNumber
+    );
+
+
+  if (!formalHasEnded[taskNumber]) {
+
+    error.textContent =
+      "Please listen to the complete audio before submitting your answer.";
+
+    return;
+  }
+
+
+  if (!validYingchenAnswer(normalized)) {
+
+    error.textContent =
+      "Please enter one whole number greater than zero.";
+
+    return;
+  }
+
+
+  error.textContent = "";
+
+
+  /*
+    CAPTCHA completion time:
+
+    first successful playback
+           ->
+    syntactically valid answer submitted
+  */
+
+  const elapsed =
+    Math.round(
+      performance.now() -
+      formalStartTime[taskNumber]
+    );
+
+
+  document.getElementById(
+    "challenge_" +
+    taskNumber +
+    "_time_ms"
+  ).value = elapsed;
+
+
+  document.getElementById(
+    "answer_" +
+    taskNumber +
+    "_normalized"
+  ).value = normalized;
+
+
+  formalCompleted[taskNumber] = true;
+
+
+  const audio =
+    document.getElementById(
+      "formal-audio-" + taskNumber
+    );
+
+  audio.pause();
+
+
+  if (taskNumber === 1) {
+
+    showStep("step-formal-2");
+
+  } else {
+
+    showStep("step-questionnaire");
+  }
+}
+
+
+/* ============================================================
+   QUESTIONNAIRE VALIDATION
+============================================================ */
+
+function radioAnswered(name) {
+
+  return document.querySelector(
+    'input[name="' + name + '"]:checked'
+  ) !== null;
+}
+
+
+function updateTotalStudyTime() {
+
+  document.getElementById(
+    "total_study_time_ms"
+  ).value = Math.round(
+    performance.now() - studyStartTime
+  );
+}
+
+
+function finishQuestionnaire() {
+
+  const required = [
+    "difficulty",
+    "discomfort",
+    "willingness",
+    "external_tool_used"
+  ];
+
+
+  for (const name of required) {
+
+    if (!radioAnswered(name)) {
+
+      document.getElementById(
+        "questionnaire-error"
+      ).textContent =
+        "Please answer all required questions before continuing.";
+
+      return;
+    }
+  }
+
+
+  document.getElementById(
+    "questionnaire-error"
+  ).textContent = "";
+
+  updateTotalStudyTime();
+
+  showStep("step-submit");
+}
+
+
+/* ============================================================
+   FINAL FORM SUBMISSION
+============================================================ */
+
+document.getElementById(
+  "yingchen-study-form"
+).addEventListener(
+  "submit",
+  function() {
+
+    updateTotalStudyTime();
+
+    document.getElementById(
+      "submit-button"
+    ).disabled = true;
+  }
+);
+
+</script>
+
+</form>
+
