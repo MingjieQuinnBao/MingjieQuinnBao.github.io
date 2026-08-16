@@ -1,0 +1,257 @@
+<form id="table1-pilot-form">
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.55; color: #222; }
+  .study { max-width: 760px; margin: 0 auto; padding: 20px; }
+  .step { display: none; }
+  .step.active { display: block; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  .card { border: 1px solid #ddd; border-radius: 8px; padding: 18px; margin: 18px 0; background: #fafafa; }
+  .notice { border-left: 5px solid #333; padding: 12px 16px; margin: 18px 0; background: #f3f3f3; }
+  .progress { color: #666; font-size: 14px; margin-bottom: 10px; }
+  .progress-bar { height: 8px; background: #e4e4e4; border-radius: 5px; overflow: hidden; }
+  .progress-fill { height: 100%; background: #333; width: 0; }
+  .option { display: block; margin: 10px 0; padding: 8px; border-radius: 6px; }
+  .option:hover { background: #eee; }
+  button { font-size: 16px; padding: 10px 18px; border: 1px solid #777; border-radius: 7px; cursor: pointer; margin: 10px 8px 0 0; }
+  button.primary { background: #222; color: #fff; border-color: #222; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  .status { display: block; margin-top: 10px; color: #555; }
+  .status.complete { border-left: 4px solid #333; padding: 8px 12px; background: #eee; color: #222; font-weight: 600; }
+  .error { color: #a40000; margin-top: 10px; font-weight: 600; }
+  .small { color: #555; font-size: 14px; }
+  textarea { width: 100%; }
+</style>
+
+<input type="hidden" name="task_id" value="{{ task.row_data['task_id'] }}">
+<input type="hidden" name="condition" value="{{ task.row_data['condition'] }}">
+<input type="hidden" name="study_version" value="table1_pilot_13x20_v1">
+
+<div id="row-fields">
+  <input type="hidden" name="q01_id" value="{{ task.row_data['q01_id'] }}"><input type="hidden" name="q01_url" value="{{ task.row_data['q01_url'] }}">
+  <input type="hidden" name="q02_id" value="{{ task.row_data['q02_id'] }}"><input type="hidden" name="q02_url" value="{{ task.row_data['q02_url'] }}">
+  <input type="hidden" name="q03_id" value="{{ task.row_data['q03_id'] }}"><input type="hidden" name="q03_url" value="{{ task.row_data['q03_url'] }}">
+  <input type="hidden" name="q04_id" value="{{ task.row_data['q04_id'] }}"><input type="hidden" name="q04_url" value="{{ task.row_data['q04_url'] }}">
+  <input type="hidden" name="q05_id" value="{{ task.row_data['q05_id'] }}"><input type="hidden" name="q05_url" value="{{ task.row_data['q05_url'] }}">
+  <input type="hidden" name="q06_id" value="{{ task.row_data['q06_id'] }}"><input type="hidden" name="q06_url" value="{{ task.row_data['q06_url'] }}">
+  <input type="hidden" name="q07_id" value="{{ task.row_data['q07_id'] }}"><input type="hidden" name="q07_url" value="{{ task.row_data['q07_url'] }}">
+  <input type="hidden" name="q08_id" value="{{ task.row_data['q08_id'] }}"><input type="hidden" name="q08_url" value="{{ task.row_data['q08_url'] }}">
+  <input type="hidden" name="q09_id" value="{{ task.row_data['q09_id'] }}"><input type="hidden" name="q09_url" value="{{ task.row_data['q09_url'] }}">
+  <input type="hidden" name="q10_id" value="{{ task.row_data['q10_id'] }}"><input type="hidden" name="q10_url" value="{{ task.row_data['q10_url'] }}">
+  <input type="hidden" name="q11_id" value="{{ task.row_data['q11_id'] }}"><input type="hidden" name="q11_url" value="{{ task.row_data['q11_url'] }}">
+  <input type="hidden" name="q12_id" value="{{ task.row_data['q12_id'] }}"><input type="hidden" name="q12_url" value="{{ task.row_data['q12_url'] }}">
+  <input type="hidden" name="q13_id" value="{{ task.row_data['q13_id'] }}"><input type="hidden" name="q13_url" value="{{ task.row_data['q13_url'] }}">
+</div>
+<div id="measurement-fields"></div>
+
+<div class="study">
+  <section class="step active" id="intro">
+    <h1>Audio Perception Pilot</h1>
+    <p>You will listen to 13 short audio clips and answer one question about each clip. The study takes approximately 4-6 minutes.</p>
+    <div class="notice">
+      <strong>Before you begin</strong>
+      <ul>
+        <li>Use headphones or earphones in a reasonably quiet place.</li>
+        <li>Set a comfortable, moderately low volume now and do not change it during the study.</li>
+        <li>Some sounds are intentionally faint. Do not increase the volume to search for them.</li>
+        <li>Use your first listening impression. Do not use audio-analysis software, AI tools, or other assistance.</li>
+        <li>Stop and exit immediately if any sound causes discomfort.</li>
+      </ul>
+    </div>
+    <label class="option"><input type="checkbox" id="consent" name="consent" value="yes"> I am at least 18 years old and voluntarily agree to participate.</label>
+    <label class="option"><input type="checkbox" id="headphones" name="headphones_confirmed" value="yes"> I am using headphones or earphones.</label>
+    <div class="error" id="intro-error"></div>
+    <button type="button" class="primary" onclick="startStudy()">Begin</button>
+  </section>
+
+  <section class="step" id="task-step">
+    <div class="progress" id="progress-text"></div>
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+    <h2 id="question-title"></h2>
+    <div class="notice" id="special-instruction">Use your first listening impression.</div>
+    <div class="card">
+      <audio id="audio" preload="metadata"></audio>
+      <button type="button" id="play-button" onclick="playAudio()">Play Audio</button>
+      <span class="status" id="audio-status">Listen to the complete audio before continuing.</span>
+    </div>
+    <div class="card">
+      <strong id="question-text"></strong>
+      <div id="options"></div>
+      <div class="error" id="task-error"></div>
+    </div>
+    <button type="button" class="primary" id="next-button" onclick="submitAnswer()" disabled>Listen to the Complete Audio</button>
+  </section>
+
+  <section class="step" id="feedback-step">
+    <h2>Final Questions</h2>
+    <div class="card">
+      <strong>Did you experience any audio playback problem?</strong>
+      <label class="option"><input type="radio" name="audio_problem" value="no"> No</label>
+      <label class="option"><input type="radio" name="audio_problem" value="yes"> Yes</label>
+    </div>
+    <div class="card">
+      <strong>Did you change the playback volume after beginning the study?</strong>
+      <label class="option"><input type="radio" name="volume_changed" value="no"> No</label>
+      <label class="option"><input type="radio" name="volume_changed" value="yes"> Yes</label>
+    </div>
+    <div class="card">
+      <strong>Did you use an external tool or obtain outside assistance?</strong>
+      <label class="option"><input type="radio" name="external_tool_used" value="no"> No</label>
+      <label class="option"><input type="radio" name="external_tool_used" value="yes"> Yes</label>
+    </div>
+    <label for="optional_comment"><strong>Optional comment</strong></label><br>
+    <textarea id="optional_comment" name="optional_comment" rows="4"></textarea>
+    <div class="error" id="feedback-error"></div>
+    <button type="button" class="primary" onclick="finishFeedback()">Continue</button>
+  </section>
+
+  <section class="step" id="submit-step">
+    <h2>Ready to Submit</h2>
+    <p>Thank you for completing the study.</p>
+    <button type="submit" class="primary">Submit</button>
+  </section>
+</div>
+
+<script>
+const studyStart = performance.now();
+const row = {
+  q01: {id: "{{ task.row_data['q01_id'] }}", url: "{{ task.row_data['q01_url'] }}"},
+  q02: {id: "{{ task.row_data['q02_id'] }}", url: "{{ task.row_data['q02_url'] }}"},
+  q03: {id: "{{ task.row_data['q03_id'] }}", url: "{{ task.row_data['q03_url'] }}"},
+  q04: {id: "{{ task.row_data['q04_id'] }}", url: "{{ task.row_data['q04_url'] }}"},
+  q05: {id: "{{ task.row_data['q05_id'] }}", url: "{{ task.row_data['q05_url'] }}"},
+  q06: {id: "{{ task.row_data['q06_id'] }}", url: "{{ task.row_data['q06_url'] }}"},
+  q07: {id: "{{ task.row_data['q07_id'] }}", url: "{{ task.row_data['q07_url'] }}"},
+  q08: {id: "{{ task.row_data['q08_id'] }}", url: "{{ task.row_data['q08_url'] }}"},
+  q09: {id: "{{ task.row_data['q09_id'] }}", url: "{{ task.row_data['q09_url'] }}"},
+  q10: {id: "{{ task.row_data['q10_id'] }}", url: "{{ task.row_data['q10_url'] }}"},
+  q11: {id: "{{ task.row_data['q11_id'] }}", url: "{{ task.row_data['q11_url'] }}"},
+  q12: {id: "{{ task.row_data['q12_id'] }}", url: "{{ task.row_data['q12_url'] }}"},
+  q13: {id: "{{ task.row_data['q13_id'] }}", url: "{{ task.row_data['q13_url'] }}"}
+};
+const rfln = [["R","Rising"],["F","Falling"],["L","No clear rising or falling trend"],["N","Noise"]];
+const ben = [["B","The beginning sounded higher"],["E","The ending sounded higher"],["N","Neither / unclear"]];
+const yesno = [["Y","Yes"],["N","No"]];
+const counts = [["0","0"],["1","1"],["2","2"]];
+const definitions = {
+  q01: ["Overall Sound", "Which description best matches the overall sound?", rfln],
+  q02: ["Overall Sound", "Which description best matches the overall sound?", rfln],
+  q03: ["Relative Pitch", "Which part sounded higher?", ben],
+  q04: ["Relative Pitch", "Which part sounded higher?", ben],
+  q05: ["Pitch Match", "Ignoring any difference in tone color, did the second sound have the same perceived pitch as the first?", yesno],
+  q06: ["Sound Aftereffect", "After the noise stopped, during the silence, did you hear a brief tone that gradually faded?", yesno],
+  q07: ["Overall Sound", "Which description best matches the overall sound?", rfln],
+  q08: ["Overall Sound", "Which description best matches the overall sound?", rfln],
+  q09: ["Overall Sound", "Which description best matches the overall sound?", rfln],
+  q10: ["Overall Sound", "Which description best matches the overall sound?", rfln],
+  q11: ["Sound Sections", "How many separate sound segments could you hear?", counts],
+  q12: ["Sound Sections", "How many separate sound segments could you hear?", counts],
+  q13: ["Sound Sections", "How many separate sound segments could you hear?", counts]
+};
+
+function hidden(name, value="") {
+  const input = document.createElement("input");
+  input.type = "hidden"; input.name = name; input.id = name; input.value = value;
+  document.getElementById("measurement-fields").appendChild(input);
+}
+for (const id of Object.keys(row)) {
+  hidden(id + "_answer"); hidden(id + "_time_ms"); hidden(id + "_play_count");
+}
+hidden("presentation_order"); hidden("total_study_time_ms"); hidden("audio_load_errors", "0");
+hidden("user_agent", navigator.userAgent); hidden("screen_width", screen.width); hidden("screen_height", screen.height);
+
+let tasks = Object.keys(row).filter(id => id !== "q06");
+for (let i = tasks.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [tasks[i], tasks[j]] = [tasks[j], tasks[i]];
+}
+tasks.push("q06");
+document.getElementById("presentation_order").value = tasks.join(",");
+
+let taskIndex = 0;
+let playCount = 0;
+let audioEnded = false;
+let taskStart = null;
+
+function showStep(id) {
+  document.querySelectorAll(".step").forEach(step => step.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+  window.scrollTo(0, 0);
+}
+
+function startStudy() {
+  if (!document.getElementById("consent").checked || !document.getElementById("headphones").checked) {
+    document.getElementById("intro-error").textContent = "Please confirm both statements before beginning.";
+    return;
+  }
+  renderTask(); showStep("task-step");
+}
+
+function renderTask() {
+  const id = tasks[taskIndex], definition = definitions[id];
+  playCount = 0; audioEnded = false; taskStart = performance.now();
+  document.getElementById("progress-text").textContent = "Question " + (taskIndex + 1) + " of " + tasks.length;
+  document.getElementById("progress-fill").style.width = (100 * taskIndex / tasks.length) + "%";
+  document.getElementById("question-title").textContent = definition[0];
+  document.getElementById("question-text").textContent = definition[1];
+  document.getElementById("special-instruction").textContent = id === "q06" ? "This is the final audio. Focus on the silence after the noise stops." : "Use your first listening impression.";
+  const options = document.getElementById("options"); options.innerHTML = "";
+  for (const [value, label] of definition[2]) {
+    const element = document.createElement("label"); element.className = "option";
+    element.innerHTML = '<input type="radio" name="current_answer" value="' + value + '"> ' + label;
+    options.appendChild(element);
+  }
+  const audio = document.getElementById("audio");
+  audio.src = row[id].url; audio.load();
+  audio.onerror = () => { document.getElementById("audio_load_errors").value = Number(document.getElementById("audio_load_errors").value) + 1; document.getElementById("audio-status").textContent = "Audio could not be loaded. Please try again."; };
+  document.getElementById("play-button").disabled = false;
+  document.getElementById("play-button").textContent = "Play Audio";
+  const status = document.getElementById("audio-status"); status.classList.remove("complete"); status.textContent = "Listen to the complete audio before continuing.";
+  const next = document.getElementById("next-button"); next.disabled = true; next.textContent = "Listen to the Complete Audio";
+  document.getElementById("task-error").textContent = "";
+}
+
+function playAudio() {
+  if (playCount >= 2) return;
+  const audio = document.getElementById("audio"), play = document.getElementById("play-button"), next = document.getElementById("next-button"), status = document.getElementById("audio-status");
+  const replay = audioEnded;
+  play.disabled = true; audio.currentTime = 0;
+  if (!replay) { next.disabled = true; next.textContent = "Audio Playing"; }
+  audio.play().then(() => {
+    playCount++;
+    status.classList.remove("complete");
+    status.textContent = replay ? "Replay started. You may continue after it finishes." : "First playback started. Listen to the complete audio.";
+  }).catch(() => { play.disabled = false; status.textContent = "Playback failed. Please try again."; });
+  audio.onended = () => {
+    audioEnded = true; status.classList.add("complete"); status.textContent = "Audio complete. Select your answer, then continue.";
+    next.disabled = false; next.textContent = taskIndex === tasks.length - 1 ? "Continue" : "Next Question";
+    if (playCount < 2) { play.disabled = false; play.textContent = "Replay Audio"; }
+  };
+}
+
+function submitAnswer() {
+  if (!audioEnded) return;
+  const selected = document.querySelector('input[name="current_answer"]:checked');
+  if (!selected) { document.getElementById("task-error").textContent = "Please select an answer."; return; }
+  const id = tasks[taskIndex];
+  document.getElementById(id + "_answer").value = selected.value;
+  document.getElementById(id + "_time_ms").value = Math.round(performance.now() - taskStart);
+  document.getElementById(id + "_play_count").value = playCount;
+  document.getElementById("audio").pause();
+  taskIndex++;
+  if (taskIndex < tasks.length) renderTask(); else showStep("feedback-step");
+}
+
+function finishFeedback() {
+  for (const name of ["audio_problem", "volume_changed", "external_tool_used"]) {
+    if (!document.querySelector('input[name="' + name + '"]:checked')) {
+      document.getElementById("feedback-error").textContent = "Please answer all three required questions.";
+      return;
+    }
+  }
+  document.getElementById("total_study_time_ms").value = Math.round(performance.now() - studyStart);
+  showStep("submit-step");
+}
+</script>
+</form>

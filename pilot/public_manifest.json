@@ -1,0 +1,4488 @@
+{
+  "schema_version": 1,
+  "dataset_id": "table1-connect-pilot-13x20-v1",
+  "sample_rate": 48000,
+  "channels": 1,
+  "subtype": "PCM_24",
+  "contains_tts": false,
+  "category_count": 13,
+  "samples_per_category": 20,
+  "total_sample_count": 260,
+  "categories": [
+    {
+      "category_id": "q01",
+      "mechanism": "Shepard-Risset glissando",
+      "variant": "up",
+      "question": "Which description best matches the overall sound?",
+      "options": [
+        {
+          "value": "R",
+          "label": "Rising"
+        },
+        {
+          "value": "F",
+          "label": "Falling"
+        },
+        {
+          "value": "L",
+          "label": "No clear rising or falling trend"
+        },
+        {
+          "value": "N",
+          "label": "Noise"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q01_s01",
+          "file": "audio/q01/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000497206,
+            "peak": 0.2027244120836258,
+            "sha256": "f40975ec452d1a12c0a70fc4b7b06d1cf0cdff5b71aedbad8168f387c3a64cb6",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s02",
+          "file": "audio/q01/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001398108,
+            "peak": 0.20273233950138092,
+            "sha256": "3c679852744cf3eb9fc798a5e49e5bded1016a01509e158af58bc59b2f645913",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s03",
+          "file": "audio/q01/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999940231,
+            "peak": 0.202727273106575,
+            "sha256": "6f4e30395617c3026744a3e043e17b5ccbb6d156b6410c196893343c5ad311aa",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s04",
+          "file": "audio/q01/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001356453,
+            "peak": 0.2027251124382019,
+            "sha256": "10c2d6fa7a71bf73d35b7a9a8732c3c06aba6770a149105571640268619659bb",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s05",
+          "file": "audio/q01/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999345253,
+            "peak": 0.20272769033908844,
+            "sha256": "363f89cebdee6102fd05039183dbaaba1d6c078f11a8363f318db0566e0ab39f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s06",
+          "file": "audio/q01/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999581004,
+            "peak": 0.20272310078144073,
+            "sha256": "522a49fb1395de54db9c23f84cbaff13d4b380056bcca7bc3c2272fe338e257d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s07",
+          "file": "audio/q01/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001147035,
+            "peak": 0.20272701978683472,
+            "sha256": "ddb3cd960471bd1a2f4c23a41c4bc012ab6f901199d43661b476e98336ab4d26",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s08",
+          "file": "audio/q01/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999834174,
+            "peak": 0.2027311772108078,
+            "sha256": "e8239dff72fa55f625af083aae388336bae6a2c47ba5df0e1f6bf5d5f12a83e4",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s09",
+          "file": "audio/q01/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000212499,
+            "peak": 0.20273181796073914,
+            "sha256": "a16044a13d52d544e454068da53d11e50b00c14050d4b3a660c06d03ad453e15",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s10",
+          "file": "audio/q01/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1049999999973566,
+            "peak": 0.2027243673801422,
+            "sha256": "3108b4b5ef5154e331562c16b0ac8cd90528c0343e6b7f995a5362a64f7df482",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s11",
+          "file": "audio/q01/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999348966,
+            "peak": 0.20272453129291534,
+            "sha256": "715f67cd6b29406645e129a5d73786dfa21e89e02a27ac551371fbe7bfd16dee",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s12",
+          "file": "audio/q01/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000002200008,
+            "peak": 0.20272405445575714,
+            "sha256": "27982f343d746a98c414a7894b8e520a7192f552a150ebe3c12c5b3e5782e374",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s13",
+          "file": "audio/q01/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999305538,
+            "peak": 0.2027263194322586,
+            "sha256": "c29f63c7a8ece38adf93c7f3f09e12dc543e1de4549a16a02330c098c7f05183",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s14",
+          "file": "audio/q01/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999565277,
+            "peak": 0.20272119343280792,
+            "sha256": "217dc78608c609770ea9fbc0db3ac8ad5472ced5d3b51291a4a18c5e37339d28",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s15",
+          "file": "audio/q01/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999385834,
+            "peak": 0.20272575318813324,
+            "sha256": "47942e53577a29ea19c9b8099261181d4e94e73c6aa01ffdef047f89a7557c4d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s16",
+          "file": "audio/q01/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1049999999955026,
+            "peak": 0.20272469520568848,
+            "sha256": "c0b12008ce8a43556b446118dc4203456e331389a5a47e72508321992ffa372f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s17",
+          "file": "audio/q01/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999200807,
+            "peak": 0.2027255743741989,
+            "sha256": "5f1333eb7b44932ad781790004460d849438dfd1f235fe1a5b2cfd9a92fb87c8",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s18",
+          "file": "audio/q01/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1049999999870756,
+            "peak": 0.20272661745548248,
+            "sha256": "19b1665ea5a3cc4f2dfb5e3e1c7a8bb8af8a11af95fb7fa106af86520231a02c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s19",
+          "file": "audio/q01/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000468865,
+            "peak": 0.2027297168970108,
+            "sha256": "a13ee6fc6cc701bbc6eb1e7b0f88bade64861026a9895d23b6a110aa5fb1a20c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q01_s20",
+          "file": "audio/q01/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q01/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001087777,
+            "peak": 0.20272429287433624,
+            "sha256": "7b5301fa8b7e25ce9581334c89686160a06a5b1242ef23a9071b948eca60d1f5",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q02",
+      "mechanism": "Shepard-Risset glissando",
+      "variant": "down",
+      "question": "Which description best matches the overall sound?",
+      "options": [
+        {
+          "value": "R",
+          "label": "Rising"
+        },
+        {
+          "value": "F",
+          "label": "Falling"
+        },
+        {
+          "value": "L",
+          "label": "No clear rising or falling trend"
+        },
+        {
+          "value": "N",
+          "label": "Noise"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q02_s01",
+          "file": "audio/q02/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000578431,
+            "peak": 0.2992129623889923,
+            "sha256": "e183e40646af209e07514c36b1c71fe3fd52b1072d47216cc117c69738c06a94",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s02",
+          "file": "audio/q02/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998462656,
+            "peak": 0.2992055118083954,
+            "sha256": "e00ceb8dd05feb84496da1a4cadb695bd8de7e4a8f963f8774135adadbb044c6",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s03",
+          "file": "audio/q02/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999997593591,
+            "peak": 0.29921096563339233,
+            "sha256": "876352540d61804852194bc860cda30fc5c25432c52c55b58a07e00eb388893a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s04",
+          "file": "audio/q02/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000653613,
+            "peak": 0.2992155849933624,
+            "sha256": "64b43088e92cabe834687c88347c0058975369643a033a3861630f25f98d9831",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s05",
+          "file": "audio/q02/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1050000000034709,
+            "peak": 0.2992188334465027,
+            "sha256": "fdb11accbaea3b06efc289aedcad278bfddcc50de23d9556afcc4de34633d64d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s06",
+          "file": "audio/q02/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000558775,
+            "peak": 0.29921165108680725,
+            "sha256": "5a2c9566743b8ecf9d377233d9b18413b0c0e039ce608fa85f0569c69f9abcd2",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s07",
+          "file": "audio/q02/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999832403,
+            "peak": 0.29920876026153564,
+            "sha256": "b38a670b63905307df8581d024b90ef5bce925971e1d80e9e3face053cfef5db",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s08",
+          "file": "audio/q02/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999521134,
+            "peak": 0.2992117702960968,
+            "sha256": "0e5955b5afb71f85da77066af0a6e3e0e9410e68de5289ddd99e6722c3ba3e1b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s09",
+          "file": "audio/q02/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001439387,
+            "peak": 0.29921188950538635,
+            "sha256": "b2307b404eada1557d208334eb2d437443bfa81f8f5cdd4262695fdc07f35776",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s10",
+          "file": "audio/q02/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999184512,
+            "peak": 0.2992197573184967,
+            "sha256": "6235ecc7533cfdc2bae139c3da73fdc2b957cadcbb07e3b5aba3b5d412ed8eb0",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s11",
+          "file": "audio/q02/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999936249,
+            "peak": 0.29921191930770874,
+            "sha256": "545f3e8a79e3f5c839b60c48b59b8a3e012c398a747a80a64b1b0a36aa4d10bd",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s12",
+          "file": "audio/q02/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999997580568,
+            "peak": 0.2992105185985565,
+            "sha256": "449e95f31a5d9ee0374d405fb261da312c0a16afb549e1fd490c1ba95f71a90a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s13",
+          "file": "audio/q02/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000239108,
+            "peak": 0.2992088794708252,
+            "sha256": "a02c2a99941fd802f523e4a0ea102c068ec7becd87182f0c9e9f51cdf8cfbf56",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s14",
+          "file": "audio/q02/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000796057,
+            "peak": 0.29921773076057434,
+            "sha256": "3f919be3d12ba4c81a779ce85b76aafc0619d4b878da52a77834a18f01ec9b2f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s15",
+          "file": "audio/q02/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1050000000121621,
+            "peak": 0.29920995235443115,
+            "sha256": "7e1b0e1eb3b9d68062c41a0a3f1e337fa3a4420d42f827e294b77bf50a2345e4",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s16",
+          "file": "audio/q02/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999982265,
+            "peak": 0.29921433329582214,
+            "sha256": "34712c563713c123af6b8693a73f426e06bf34a858a78ea5dd696b29c4f92a4f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s17",
+          "file": "audio/q02/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998826998,
+            "peak": 0.2992185652256012,
+            "sha256": "e5894fdae860793608bc41a989b50d221a168ca10d609eee4b135998475c2ae8",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s18",
+          "file": "audio/q02/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999596778,
+            "peak": 0.2992142140865326,
+            "sha256": "916dc8792e406afc637e15bfcf5bc6be42ee59f4254e4f7612d69d6b387f0c52",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s19",
+          "file": "audio/q02/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000002605187,
+            "peak": 0.29921236634254456,
+            "sha256": "ba92f77a2a635d2c1aae725121ede4078ff403e45e7a4ccee2657265184bb658",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q02_s20",
+          "file": "audio/q02/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q02/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999271882,
+            "peak": 0.29921916127204895,
+            "sha256": "ba67f5c0b26e35ff0d254826167ad0dd2a5d9f8e84ac777c0e86df4b8c5b2229",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q03",
+      "mechanism": "Glide-disambiguated Shepard tritone",
+      "variant": "up",
+      "question": "Which part sounded higher?",
+      "options": [
+        {
+          "value": "B",
+          "label": "The beginning sounded higher"
+        },
+        {
+          "value": "E",
+          "label": "The ending sounded higher"
+        },
+        {
+          "value": "N",
+          "label": "Neither / unclear"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q03_s01",
+          "file": "audio/q03/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000723751,
+            "peak": 0.21533596515655518,
+            "sha256": "58291afbd58bcac276f7fd408b787289bb4de7007ac37e6255ecad9202021f97",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s02",
+          "file": "audio/q03/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999178322,
+            "peak": 0.20103001594543457,
+            "sha256": "dec1e7029ff5d0852a2dbb2b3576e7f781490c8750f934f905c2ce3ac2f28756",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s03",
+          "file": "audio/q03/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000285656,
+            "peak": 0.2118683010339737,
+            "sha256": "5c0e06c824a6bfddaebf9a1149cf994fc2615edb7eae4a40cce8d7a02519d445",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s04",
+          "file": "audio/q03/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000043434,
+            "peak": 0.2185625284910202,
+            "sha256": "25ced5b0e413ee027ce9ff1f57d98507e202e47545e6fde64a0e837a9601cc0d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s05",
+          "file": "audio/q03/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999729162,
+            "peak": 0.22758302092552185,
+            "sha256": "a6f046956450b262c06502f9e8bc3cdb25252aa34ad8be2be015d4681736ee01",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s06",
+          "file": "audio/q03/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999742045,
+            "peak": 0.22358930110931396,
+            "sha256": "559e0f4171aefcf20960c719c29bc05ad14d024300ad95ca26f6de4d31a6a5e1",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s07",
+          "file": "audio/q03/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999277122,
+            "peak": 0.19549186527729034,
+            "sha256": "be658230f5ea2d30aafc4311cab37f62f559ab8a7ae37d29df84c1aecc13a2bc",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s08",
+          "file": "audio/q03/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000674754,
+            "peak": 0.20582543313503265,
+            "sha256": "a70d1991fcfcaa1cc58a7c1095bf2a5b54813533c920b7e034540a873e415a47",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s09",
+          "file": "audio/q03/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999936462,
+            "peak": 0.21996168792247772,
+            "sha256": "0a1383f95ec615278c5943f49073e43fc1c1c69d31ad6ff8b1448e51ff4925e9",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s10",
+          "file": "audio/q03/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000611462,
+            "peak": 0.20919960737228394,
+            "sha256": "c7e839a1d1537eb8fe5be756700e8c145a1120c7ab4aa26715e48e26c7d4a632",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s11",
+          "file": "audio/q03/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000213791,
+            "peak": 0.2285202592611313,
+            "sha256": "cd64aef61ed0ed2dec9137649a01ba6fcb8d8030ef4df8314b1ccdc66031b20d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s12",
+          "file": "audio/q03/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000309813,
+            "peak": 0.19358281791210175,
+            "sha256": "3600dcdd2266fe9ce06b658f9edbfd8a2cd64afecd48dffc2ac89d655682aa80",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s13",
+          "file": "audio/q03/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000001200954,
+            "peak": 0.22046908736228943,
+            "sha256": "579cf86fc69d43aa70b728d150139438a279dbe806d99116cec47ff05918c7ca",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s14",
+          "file": "audio/q03/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000001363971,
+            "peak": 0.2143067866563797,
+            "sha256": "5783a194af07b9c333f10d8aa0c7d13a82ac73dba39e36d2a426967450e6fdfa",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s15",
+          "file": "audio/q03/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999979524,
+            "peak": 0.2286248505115509,
+            "sha256": "5d067c73f6c3e33920817b9c29dffb21f564cabf952e1a763a9b2cd893ee5008",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s16",
+          "file": "audio/q03/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999749224,
+            "peak": 0.19770821928977966,
+            "sha256": "d0c00071d78a7e25faf5d5074fea27671987e10f8b8784cb4cd4b3ebdf0b7f1c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s17",
+          "file": "audio/q03/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000614985,
+            "peak": 0.20167092978954315,
+            "sha256": "14a22b0e3e325567864ccefe72b25190aa0a49887555cad1fffb86e9fdac7ccf",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s18",
+          "file": "audio/q03/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000222956,
+            "peak": 0.21379324793815613,
+            "sha256": "01b38b7c5670d86cc9a9e001d7378573a9a69537b3c09b531f2c64f2965b4b73",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s19",
+          "file": "audio/q03/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000001417657,
+            "peak": 0.2288830578327179,
+            "sha256": "79b6dc5fc7c90ccd0ba535959644943c072925859bda9be98288ceaa3b4989da",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q03_s20",
+          "file": "audio/q03/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q03/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000398163,
+            "peak": 0.23518818616867065,
+            "sha256": "0f4ecadc1d4589acf9ad62ac6d38d6457899a3c90f5fc03dee113698f83de53d",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q04",
+      "mechanism": "Glide-disambiguated Shepard tritone",
+      "variant": "down",
+      "question": "Which part sounded higher?",
+      "options": [
+        {
+          "value": "B",
+          "label": "The beginning sounded higher"
+        },
+        {
+          "value": "E",
+          "label": "The ending sounded higher"
+        },
+        {
+          "value": "N",
+          "label": "Neither / unclear"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q04_s01",
+          "file": "audio/q04/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.105000000001567,
+            "peak": 0.20434719324111938,
+            "sha256": "a438210318ab8be814bb19cfe3702af23a20faf28e31264fb35b6a0643a13333",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s02",
+          "file": "audio/q04/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999993723,
+            "peak": 0.22047273814678192,
+            "sha256": "0286a3e7ed08299535ad5756bcda2042a5f9ea9256d6e218fa415630eb6f9e7a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s03",
+          "file": "audio/q04/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000756123,
+            "peak": 0.2079155445098877,
+            "sha256": "ffa86131cf54fc9aa9747d9242db5c531667b278112a408fd0167baf13ad0ee9",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s04",
+          "file": "audio/q04/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000287807,
+            "peak": 0.2298903912305832,
+            "sha256": "7420ff784512e25360251e99d839324d083dc29334bcee8d1181069f84c79faa",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s05",
+          "file": "audio/q04/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.1050000000008181,
+            "peak": 0.21522973477840424,
+            "sha256": "b837483db2395b1c11604908cf5293ae32d2ebd39a0fdae77d41d54d16b87521",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s06",
+          "file": "audio/q04/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000001334016,
+            "peak": 0.2169928252696991,
+            "sha256": "185931fbbdb72613d1c6f5f63c6fac7ffb60f3b43b2d2bd312df0ecf8fecb4b4",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s07",
+          "file": "audio/q04/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999505112,
+            "peak": 0.21556662023067474,
+            "sha256": "0e42274131d611a0bf08158bc44e9028d799cac8bb1db2bfab363df1f3ee6b2a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s08",
+          "file": "audio/q04/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999475138,
+            "peak": 0.21255779266357422,
+            "sha256": "0017fbcf50639b2e237dd699d7213d72a969a1278a289efd7e460b6b1022b82d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s09",
+          "file": "audio/q04/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.1050000000019562,
+            "peak": 0.22067272663116455,
+            "sha256": "d5c5b0677cfcd89953968d83a061a8985f03e91bdb6dd8e36aba6a29ac33daec",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s10",
+          "file": "audio/q04/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999560466,
+            "peak": 0.23739312589168549,
+            "sha256": "a827c2756fb6b06cb0df3ecb8c696e4a37130602c58ea92bd3dae15047c0ca6e",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s11",
+          "file": "audio/q04/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999741907,
+            "peak": 0.196696475148201,
+            "sha256": "4056d516251d0bfdb72c35b7d7244849311b7cf87106f078bb768954cee5bc42",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s12",
+          "file": "audio/q04/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000374948,
+            "peak": 0.21935708820819855,
+            "sha256": "ee5f36b082cc022124e98eab2e075bce4c5ea013cb74011eb6dd5c7e7448473f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s13",
+          "file": "audio/q04/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000351747,
+            "peak": 0.21119065582752228,
+            "sha256": "94fb2da405aa65208cec5017538449d734700274efbc3230273b3344ed88a219",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s14",
+          "file": "audio/q04/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999706101,
+            "peak": 0.19876015186309814,
+            "sha256": "ed652f122453d6896f4a8e88c8781badafd1323472d30d01aa63f5c71cb2d7c3",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s15",
+          "file": "audio/q04/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999212153,
+            "peak": 0.211348757147789,
+            "sha256": "74e066cf729d673df78a9e3cc8419648e081c6e268d03a7644bbf5083c6921b7",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s16",
+          "file": "audio/q04/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10500000000779199,
+            "peak": 0.21760371327400208,
+            "sha256": "5e5ab86dd09f2ba88f4603259217a25d1590df332cf4419c5e64f9f14c9268dc",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s17",
+          "file": "audio/q04/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999607255,
+            "peak": 0.21868157386779785,
+            "sha256": "1bd16bdbdc0f99c94d62f4a44bb8950318cb0915fe3060e79d86686499ef996b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s18",
+          "file": "audio/q04/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999779734,
+            "peak": 0.2292766273021698,
+            "sha256": "66a0438ef3bd1b323c16bf79fc26d3705fc38b02619b56d3359a41b61f3cb83d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s19",
+          "file": "audio/q04/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999993942,
+            "peak": 0.2188592106103897,
+            "sha256": "d0e48d0f34e488e4642a4a9e0ac65e35abc9bcaf6e87b4aa627b7e230e5d3592",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q04_s20",
+          "file": "audio/q04/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q04/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 337920,
+            "duration_seconds": 7.04,
+            "rms": 0.10499999999839711,
+            "peak": 0.2136523574590683,
+            "sha256": "f67a07b31b2e3d8e84d8ae6558ff3db0bff7f678ccb53c26bec216907aa45b74",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q05",
+      "mechanism": "Missing fundamental",
+      "variant": "pitch match",
+      "question": "Ignoring any difference in tone color, did the second sound have the same perceived pitch as the first?",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q05_s01",
+          "file": "audio/q05/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.0715541751448013,
+            "peak": 0.17004793882369995,
+            "sha256": "8665fb9c73691b07a43635ccd4b1f33aba6f88ab410abb0563ca108edd38316b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s02",
+          "file": "audio/q05/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417559384539,
+            "peak": 0.24746285378932953,
+            "sha256": "d272b9ac4e9113697c8313ee46d0320c66dc55df41d41e0dafba720a3fa4cae1",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s03",
+          "file": "audio/q05/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417523617244,
+            "peak": 0.23252516984939575,
+            "sha256": "f91b49136f5014d87486dffe7dbe31aa593de84abe1a73faa8fcda94c0d608c4",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s04",
+          "file": "audio/q05/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417525909782,
+            "peak": 0.17292077839374542,
+            "sha256": "fc3dfc666d85fcd4ed27d46ccdb2beb4cf1dfc2fe75e6bb2910c963ecdc7b6ac",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s05",
+          "file": "audio/q05/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417515546933,
+            "peak": 0.18155942857265472,
+            "sha256": "0cbf026c0a41c7d53ffe184387395a940643866b5edfcbaccc1ad0eef57e1860",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s06",
+          "file": "audio/q05/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.071554174844681,
+            "peak": 0.16901691257953644,
+            "sha256": "40b54b6f9a54a2801b566fbc3e599a910183b4da1417ed8dfc0cc9f4d5b6191e",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s07",
+          "file": "audio/q05/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417550693419,
+            "peak": 0.15743568539619446,
+            "sha256": "2c161cc6c46a2891dd2122e61607d59d77023aa3ffe78389df710ea17ed74af8",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s08",
+          "file": "audio/q05/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.0715541752748629,
+            "peak": 0.18919308483600616,
+            "sha256": "ced7c025e0cfd43e313b75adc91c6486bb738d28a309a93ff31fc4827a494ff2",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s09",
+          "file": "audio/q05/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417539448543,
+            "peak": 0.1657678335905075,
+            "sha256": "d6b3c877e8441707c83fbad6f47f0661ebb5d5fb7470e4a495c96df903c78abf",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s10",
+          "file": "audio/q05/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417539680896,
+            "peak": 0.19986923038959503,
+            "sha256": "f1f237ea4f61319c5a5ed3160defd9410d38e5265af883b770eb15d3a1e8a590",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s11",
+          "file": "audio/q05/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417512545616,
+            "peak": 0.22754189372062683,
+            "sha256": "a643026efb648fa5e85c5f9502e348801632f555cc8ae2bf3e084a28e7cd9368",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s12",
+          "file": "audio/q05/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417529583664,
+            "peak": 0.19552969932556152,
+            "sha256": "fa6a185c1e3af05035f2df8f640340a12c14f1f65a7a0f525f588ccb530ba10a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s13",
+          "file": "audio/q05/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417555102676,
+            "peak": 0.23086723685264587,
+            "sha256": "da69c26c5d58c5e13b27da3492d8127dd1e79d403a61a9d122ff130914f5fdb3",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s14",
+          "file": "audio/q05/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417536663577,
+            "peak": 0.21258482336997986,
+            "sha256": "825405ca816b81b4eda897bf59735992c7931ce84067687a24655152d5e8fa3a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s15",
+          "file": "audio/q05/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417539407019,
+            "peak": 0.2056974619626999,
+            "sha256": "443dfbb183375aff781e39f94c4f2f79a64b888ef7a1d73ec2115bfabb574bc0",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s16",
+          "file": "audio/q05/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.0715541752021859,
+            "peak": 0.1953711062669754,
+            "sha256": "e23f94bf5858dc8b2988610817a8fa52e6595ad6da0330b31f7694836715148f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s17",
+          "file": "audio/q05/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417511573274,
+            "peak": 0.1758345365524292,
+            "sha256": "02279e6c12658c288a3de513fe03f9fff93f375894156c2fd1ac14c3e912e58b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s18",
+          "file": "audio/q05/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417520312023,
+            "peak": 0.18292024731636047,
+            "sha256": "246a5566e12c5c313db3432b168532dc7165103ff42e5c90482684943091d584",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s19",
+          "file": "audio/q05/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417543012337,
+            "peak": 0.2221536785364151,
+            "sha256": "87710bb1dd4808275910d7356c0012d617812c3655fa5d6b8ed1142ef3efc44c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q05_s20",
+          "file": "audio/q05/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q05/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 120000,
+            "duration_seconds": 2.5,
+            "rms": 0.07155417557031256,
+            "peak": 0.1767784208059311,
+            "sha256": "7a2b3f34a8cecc1735e06a01c6f83f2dfc7a614c96ea641e5e29563f90dbd071",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q06",
+      "mechanism": "Zwicker tone",
+      "variant": "short aftereffect",
+      "question": "After the noise stopped, during the silence, did you hear a brief tone that gradually faded?",
+      "options": [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q06_s01",
+          "file": "audio/q06/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.348882592969262,
+            "sha256": "6ff610ae1fe412bb43f0330766519d73c6dd72cabe1f18fbbf2ba0d15a67078d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s02",
+          "file": "audio/q06/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.4109537390124436,
+            "sha256": "05d0f8df0a32dd1a44042e045d6bd173c43a1e6d4fa5cc9754ed1c91e2b6a7b0",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s03",
+          "file": "audio/q06/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.055205244747388346,
+            "peak": 0.3646274370155779,
+            "sha256": "898cedf46defaa4421ccfd0bfe2f04a092ae254923f3995f00a6191e1c9fe2f7",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s04",
+          "file": "audio/q06/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.3524643640471659,
+            "sha256": "829a3b80dc290310dbf237ea04576be7fd2976d496e61ff4da2fbcd4ab7218d0",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s05",
+          "file": "audio/q06/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738833,
+            "peak": 0.3893491968841889,
+            "sha256": "c5d53a0b1534a01821cb8e2f04c5f8dee4d3f28d003bff858ded442a302dd734",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s06",
+          "file": "audio/q06/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.36826651073144984,
+            "sha256": "d2c4862e72068df7dbc0f000fd553017683b258f19f77a4ead4efdfafc4f7174",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s07",
+          "file": "audio/q06/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.3742734605190856,
+            "sha256": "8287935c5f88850a9c4460949f8730461bb68b3274dd8ab474218a642575d3cc",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s08",
+          "file": "audio/q06/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.3893067528899216,
+            "sha256": "35197908bf4fdb23e6281fad3b657086b6862b6d5142fdd44bf75cd3e00d50b0",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s09",
+          "file": "audio/q06/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.36144615208675684,
+            "sha256": "bb9ddc4b46c749e634f6a52a06f39f69308cd881e4c34fe377b1b879df2046c7",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s10",
+          "file": "audio/q06/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.3545842389806422,
+            "sha256": "f79c6333a5a14dd5860f62c6ef8577af5ec692bc0344ad3ced71d4a702aaa9af",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s11",
+          "file": "audio/q06/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.3811000207122171,
+            "sha256": "a2e79e80eda80f62b75f5f83705a77ab271eba3b15145c9b7c08cf2c18b20f18",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s12",
+          "file": "audio/q06/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738833,
+            "peak": 0.360732722747854,
+            "sha256": "0ce4d9fc80f05a15bfeba445d449acd7d6215a35f417f4b1e3cc2c47fc690881",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s13",
+          "file": "audio/q06/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.37796322365088814,
+            "sha256": "8195d4d0e26211e38cf35052624e93ce37feb05757107e91a85245e4ed454660",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s14",
+          "file": "audio/q06/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.055205244747388346,
+            "peak": 0.3734883775766065,
+            "sha256": "1b9ea3502ff487d12bd5e33d14c07bc0b371c6e2104278d82952c85109fa507d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s15",
+          "file": "audio/q06/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.055205244747388346,
+            "peak": 0.3766022422463289,
+            "sha256": "2442d479b5f2a29c2fbf84508db2155c8c2a1e1346126cd1464f1ce953cbf801",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s16",
+          "file": "audio/q06/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.055205244747388346,
+            "peak": 0.41135799928786765,
+            "sha256": "c83af35ba045b1ab434fa700aaf38c714d12730cbe17ff224167cf8e058ecb50",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s17",
+          "file": "audio/q06/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.3917973932377647,
+            "sha256": "3ee8e3a49a9622372dc481a3dfa036b3cba62a33c4db708392b118cf213fc13c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s18",
+          "file": "audio/q06/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.055205244747388346,
+            "peak": 0.3682825813390806,
+            "sha256": "a8ae7f45501a05d5eb7565eda84461097d5fc417c596965d01b8c041ba7717f4",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s19",
+          "file": "audio/q06/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.3731752713899069,
+            "sha256": "44ae61755b21b4142209ee1f4c3ab8e44fed32eb817ec40123c4dfc8dbc3044e",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q06_s20",
+          "file": "audio/q06/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q06/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 504000,
+            "duration_seconds": 10.5,
+            "rms": 0.05520524474738834,
+            "peak": 0.358299556895082,
+            "sha256": "33feab8ab014e4d891f1684005ac96ad5cf4f2d378a9cdd994789f1db183f027",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q07",
+      "mechanism": "High-band frequency glide",
+      "variant": "up",
+      "question": "Which description best matches the overall sound?",
+      "options": [
+        {
+          "value": "R",
+          "label": "Rising"
+        },
+        {
+          "value": "F",
+          "label": "Falling"
+        },
+        {
+          "value": "L",
+          "label": "No clear rising or falling trend"
+        },
+        {
+          "value": "N",
+          "label": "Noise"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q07_s01",
+          "file": "audio/q07/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000194773,
+            "peak": 0.18099869787693024,
+            "sha256": "cc0ae96d8033c973ca94c12c4ae38322932d6f207cf91b10244ad15c079e49c8",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s02",
+          "file": "audio/q07/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999651216,
+            "peak": 0.177983820438385,
+            "sha256": "9e2e628f17f96f246d75ee2c65bca56465056e9b931fa9e6e8e914271e63a318",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s03",
+          "file": "audio/q07/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999850555,
+            "peak": 0.20582495629787445,
+            "sha256": "0aa16d658ba0363a3c3c1dfb92530d38d4aac752428bb4ffcd53c029f2b47f75",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s04",
+          "file": "audio/q07/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999617837,
+            "peak": 0.19138853251934052,
+            "sha256": "396e3df44e410b33f67c392c665fb93f3eaabf02c93bfce60bfc6e1b08aac0bc",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s05",
+          "file": "audio/q07/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000222187,
+            "peak": 0.17975760996341705,
+            "sha256": "2328ebfefa79bdf9615f7be24ca572555a680f7d1039bcc62467923a9adcd724",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s06",
+          "file": "audio/q07/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999843398,
+            "peak": 0.18687491118907928,
+            "sha256": "5f3d9f5ac5e5b91320caf8ce98230d70d74f7326bdf73c66744f93a2d1be45b1",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s07",
+          "file": "audio/q07/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999408835,
+            "peak": 0.18993240594863892,
+            "sha256": "4bcb4a95e0ab25c70d1a896add1326c724bb40c5bd6ee2571a7746a3ca689055",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s08",
+          "file": "audio/q07/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000298641,
+            "peak": 0.16673532128334045,
+            "sha256": "1f6467a9dca6646d53a9948358071175e54a89ef31aaf16dce577bf3d13410b6",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s09",
+          "file": "audio/q07/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999928511,
+            "peak": 0.17835558950901031,
+            "sha256": "a9a22ceec603ae5786e43a5f3fcd5b7456902be3067313e8ae547cab955cd090",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s10",
+          "file": "audio/q07/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000861985,
+            "peak": 0.1839216649532318,
+            "sha256": "e89335de20066a054471d2d08577f5c0f350df01684afaeddfe293d0e4059c12",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s11",
+          "file": "audio/q07/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000847495,
+            "peak": 0.18000958859920502,
+            "sha256": "34f4ec56d00cef8d60f8be6fc3a1b0868f61e890d278c40e96dee2bb3de22863",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s12",
+          "file": "audio/q07/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999699597,
+            "peak": 0.18928807973861694,
+            "sha256": "70b5183bbf03f8d9cbf76ad8c957618fd8b1b48d7dc1c34af8bb8d0f5a1dea72",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s13",
+          "file": "audio/q07/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999455333,
+            "peak": 0.21031756699085236,
+            "sha256": "fc6c16029fe5b3d16dba16c24a6a0d5e6b860ad93f86dedd9088c1ef8a2eccba",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s14",
+          "file": "audio/q07/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000245684,
+            "peak": 0.18593838810920715,
+            "sha256": "a80c977d2f3e79248bea27f8b8e23e173132ebe456a1b5cf0b3b291fdd52db5f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s15",
+          "file": "audio/q07/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998907923,
+            "peak": 0.20257464051246643,
+            "sha256": "8f4c2e1aad7426897d18fb217df04792af1cd011720830eb994ca0baccd829e1",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s16",
+          "file": "audio/q07/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001846437,
+            "peak": 0.21269798278808594,
+            "sha256": "8e74531d67aa9e135b13b51426e89f30eca7738d79e150cf905daa88ab231b3b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s17",
+          "file": "audio/q07/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.104999999996613,
+            "peak": 0.16686560213565826,
+            "sha256": "3eed76e3cb9b58b188cdda84cff93ebdbb3b8a097edc0ca1eab84557f09587e2",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s18",
+          "file": "audio/q07/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000593132,
+            "peak": 0.17131803929805756,
+            "sha256": "96dfa5f3312ceeab9fdb9c8ae729cbb422fd8c3eac7be90b20dea1031310cb3e",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s19",
+          "file": "audio/q07/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999976228,
+            "peak": 0.1919504553079605,
+            "sha256": "bd5f3ef59ee36db883d80646116bcadf46d90434690422d781ff14a4a55c0737",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q07_s20",
+          "file": "audio/q07/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q07/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999712524,
+            "peak": 0.1734243929386139,
+            "sha256": "3c85c1e996b2bf477f098e7033f926b643a4db5e708380a87874db4e85f24fad",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q08",
+      "mechanism": "High-band frequency glide",
+      "variant": "down",
+      "question": "Which description best matches the overall sound?",
+      "options": [
+        {
+          "value": "R",
+          "label": "Rising"
+        },
+        {
+          "value": "F",
+          "label": "Falling"
+        },
+        {
+          "value": "L",
+          "label": "No clear rising or falling trend"
+        },
+        {
+          "value": "N",
+          "label": "Noise"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q08_s01",
+          "file": "audio/q08/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999668164,
+            "peak": 0.18919789791107178,
+            "sha256": "61bb575314d7c3910c4880336cfadf393ed847d9f01d9b0c54866388a1dbeb24",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s02",
+          "file": "audio/q08/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1049999999950465,
+            "peak": 0.17869782447814941,
+            "sha256": "7250c186f0494c77d0158631e40643532064abbeafb3e6a649205bff22028a8c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s03",
+          "file": "audio/q08/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999914496,
+            "peak": 0.15903788805007935,
+            "sha256": "25753dcda91a89caf090f3db4289e0edad1dd268b7f7a019baa95da2eaa8f507",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s04",
+          "file": "audio/q08/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1049999999998156,
+            "peak": 0.2171090990304947,
+            "sha256": "8d6300eda89693033f70b309c71f2d2b20a88c64505558d8a2c0516b0e187a11",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s05",
+          "file": "audio/q08/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000223846,
+            "peak": 0.17330844700336456,
+            "sha256": "474d6937f856387f443d0a0ecfca6f766c641e71d173570c1fcfddec8370bfce",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s06",
+          "file": "audio/q08/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999490443,
+            "peak": 0.17726784944534302,
+            "sha256": "4078edb25460cc9315281a7a9539179fb2ec28529e89726e5e5cb7655c0e982b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s07",
+          "file": "audio/q08/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999856373,
+            "peak": 0.16128391027450562,
+            "sha256": "af4a4139e7fe80f137f967b0738482a3466c5e7206b93d916d8cd4fa831eb8dd",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s08",
+          "file": "audio/q08/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999570167,
+            "peak": 0.17726176977157593,
+            "sha256": "cffedc9cbaa47ea03aa2bfe0fca7a7e4bd8f3a9804e34fe0d8cbea06d501de3f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s09",
+          "file": "audio/q08/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000352591,
+            "peak": 0.1901564598083496,
+            "sha256": "1e8b9cf824b3c1ab876e7641f43b0dd97a2d8fe1c3c6916f64ae9f54cdcab99b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s10",
+          "file": "audio/q08/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001197743,
+            "peak": 0.18391673266887665,
+            "sha256": "ddc587fbf4057b1b2a97a80a5a30319730e98bb77d19af000ecfbea112e6dbbf",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s11",
+          "file": "audio/q08/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999537855,
+            "peak": 0.21315467357635498,
+            "sha256": "177d90db916d07b90d68167009d9bed00d0c891484d8fd4781f9130477350c1d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s12",
+          "file": "audio/q08/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000687765,
+            "peak": 0.18339680135250092,
+            "sha256": "4311d13420f88dd91b7afced897f11abe41756710a97b9467aae3bc2d4fd592a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s13",
+          "file": "audio/q08/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999465699,
+            "peak": 0.17257873713970184,
+            "sha256": "fa6da4725c50256b62944c2baf4883e435a96ce780ced8d20bf107fb08a99cdc",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s14",
+          "file": "audio/q08/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1049999999968513,
+            "peak": 0.21513672173023224,
+            "sha256": "0d21581f5d247dcf10176a9a05b0b1b07618af0a09abeae42fb81f73cb652eac",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s15",
+          "file": "audio/q08/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999783043,
+            "peak": 0.17704641819000244,
+            "sha256": "8de2c7793d780c700177f60998fac6c0f26074c9654697c8b7e6026273a71419",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s16",
+          "file": "audio/q08/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999314844,
+            "peak": 0.17062462866306305,
+            "sha256": "358aba1ca46e5e3070bb3e2db0ea192662a81ae70f143d3dc6b49112cf0b10dd",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s17",
+          "file": "audio/q08/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998879482,
+            "peak": 0.18650157749652863,
+            "sha256": "f7cfc968f64c5b7bd26f49fe85c4dc6d9d4ca960bef237f3b68b1da8c3a8d0d9",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s18",
+          "file": "audio/q08/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998820306,
+            "peak": 0.17398372292518616,
+            "sha256": "cf8bbd88a323b8e0b103ebe9cf0f01b8f56a4a6a91e7f3654e1c8f2b89bf17c6",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s19",
+          "file": "audio/q08/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000804521,
+            "peak": 0.1907375007867813,
+            "sha256": "c307c81ab1a68f23a64c4bf0f522c8300daeec15a633393b7f712110628173ae",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q08_s20",
+          "file": "audio/q08/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q08/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999981806,
+            "peak": 0.1718916893005371,
+            "sha256": "ad261fe0b5a6602ae8eeeaddfa1dbbf5af304bab10e03fca895ca097cfdd4f4f",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q09",
+      "mechanism": "Low-salience moving noise pitch",
+      "variant": "up",
+      "question": "Which description best matches the overall sound?",
+      "options": [
+        {
+          "value": "R",
+          "label": "Rising"
+        },
+        {
+          "value": "F",
+          "label": "Falling"
+        },
+        {
+          "value": "L",
+          "label": "No clear rising or falling trend"
+        },
+        {
+          "value": "N",
+          "label": "Noise"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q09_s01",
+          "file": "audio/q09/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999224056,
+            "peak": 0.5148265361785889,
+            "sha256": "480823cf753520a9d2c1ae8382dc6cd652e5e0bdf5f03351aa16dbc260bfd08b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s02",
+          "file": "audio/q09/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998607003,
+            "peak": 0.47950446605682373,
+            "sha256": "5f2c35102d5271c65a59f6afd63a225e077ce32cb5d20432a2eea6e447f0adec",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s03",
+          "file": "audio/q09/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999872864,
+            "peak": 0.49807077646255493,
+            "sha256": "db8ad3e232bcd1ca716d0846e4a13bd66949dbf5ff23c2ba78a01a9b45fe2733",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s04",
+          "file": "audio/q09/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999305931,
+            "peak": 0.5244984030723572,
+            "sha256": "3802926ee2be01ed7fe09486409b91851af6c838b163df9daeab5f886367ca9b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s05",
+          "file": "audio/q09/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1049999999970528,
+            "peak": 0.5133947134017944,
+            "sha256": "6454d4a32f468eefdda46c641f6aba9c4cb3d307ca36e1b2d672715c9901fce7",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s06",
+          "file": "audio/q09/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001127013,
+            "peak": 0.5318388342857361,
+            "sha256": "2f82b997972e06aa8cdfacf398d8b0109bde789234cf4a2c112efdba115c5986",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s07",
+          "file": "audio/q09/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000366004,
+            "peak": 0.47290074825286865,
+            "sha256": "a618c628e8b7e8696f664e82887cd82170da783f2dd7d2761b0bef7c13debdae",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s08",
+          "file": "audio/q09/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000334475,
+            "peak": 0.49790897965431213,
+            "sha256": "5f4e5212bca0b899a4e4c6dbd538d681931b227d64585d36df60bb49565c7f6f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s09",
+          "file": "audio/q09/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999982974,
+            "peak": 0.5247526168823242,
+            "sha256": "9b5e53c11e965cd6459a649406daa9ce5a0840bcee5038c84fff220674ab8f4e",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s10",
+          "file": "audio/q09/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998820773,
+            "peak": 0.47453010082244873,
+            "sha256": "b3657638c682bca586cb83b6fe38c8b1c491311493233c9d1daf65cbbb4f9aac",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s11",
+          "file": "audio/q09/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999968204,
+            "peak": 0.4857760965824127,
+            "sha256": "c1a5b408067eb958c1001f3e85e8d2c4bacffa078c3e232561456ce139212f7a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s12",
+          "file": "audio/q09/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999438712,
+            "peak": 0.45292842388153076,
+            "sha256": "118fa2bd5444cefee997e777077a00b3046472c960fc39a5cc61a850e2c081b0",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s13",
+          "file": "audio/q09/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998716646,
+            "peak": 0.4916536211967468,
+            "sha256": "8b953975663f1ce9a99fe4413aed42ee9d71137aff78f2dcbeb6d1da146881ae",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s14",
+          "file": "audio/q09/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000222542,
+            "peak": 0.5039649605751038,
+            "sha256": "22a2499388e223f86404811bf902e543960b4c36ccae51eaec0f4dfc06ea5655",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s15",
+          "file": "audio/q09/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000519373,
+            "peak": 0.47892189025878906,
+            "sha256": "2cf84d9d77cb71d13706682ed3a4c796e51e58ab58c06fc3a198c09b29d1db6e",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s16",
+          "file": "audio/q09/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998483137,
+            "peak": 0.475801944732666,
+            "sha256": "3c3ad0fc7e680c85bfc46bafe10cd52e8858f58d9c80f328de51f936b2da6251",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s17",
+          "file": "audio/q09/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999309348,
+            "peak": 0.4957038462162018,
+            "sha256": "9530c26c063e9b56e3ce251dae1872cfbc2829445f45709284a061e55062129f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s18",
+          "file": "audio/q09/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999647089,
+            "peak": 0.48247721791267395,
+            "sha256": "8e98de73c0efef54a204fd5c04a03d07a87d80fd30dd802096c83427b3ff42ad",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s19",
+          "file": "audio/q09/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998524995,
+            "peak": 0.5419726371765137,
+            "sha256": "2144b1d18adeca2334138bed11b0bbb7631542e899c48b27b4e80c1a3de7fd71",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q09_s20",
+          "file": "audio/q09/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q09/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000142985,
+            "peak": 0.4566340446472168,
+            "sha256": "8eb172d3ca2df907cb342c678f957473caea6a2f2557eea1e3755b7da355126c",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q10",
+      "mechanism": "Low-salience moving noise pitch",
+      "variant": "down",
+      "question": "Which description best matches the overall sound?",
+      "options": [
+        {
+          "value": "R",
+          "label": "Rising"
+        },
+        {
+          "value": "F",
+          "label": "Falling"
+        },
+        {
+          "value": "L",
+          "label": "No clear rising or falling trend"
+        },
+        {
+          "value": "N",
+          "label": "Noise"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q10_s01",
+          "file": "audio/q10/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000220154,
+            "peak": 0.4492538869380951,
+            "sha256": "d3b7dac2f6364cd496fab3fcc1f7ceacff379f3ed957d39f145c0935f7cbea40",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s02",
+          "file": "audio/q10/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998870596,
+            "peak": 0.5016463994979858,
+            "sha256": "c9220ee554d50591105dec60dffea7e3399693c24b8a74350db3a87b65ede954",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s03",
+          "file": "audio/q10/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999687841,
+            "peak": 0.5014697313308716,
+            "sha256": "1ef2d07515168862ecfc227a1304ab4d11e89035dee96066b8f2a7cb94151a05",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s04",
+          "file": "audio/q10/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999981287,
+            "peak": 0.4496975839138031,
+            "sha256": "abba6a2efaee38ecf96222eba8edc3d20fde3de83e4e87227e2e656ca990e7a5",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s05",
+          "file": "audio/q10/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1050000000043819,
+            "peak": 0.48235952854156494,
+            "sha256": "7cb34ac929f7bff8d0938af41ec5baed7416f467dcb38bee2dfb405cec0e40a3",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s06",
+          "file": "audio/q10/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999874193,
+            "peak": 0.4694306254386902,
+            "sha256": "f69e27a1ce108ff906195402fe5197e0419a0b6d36a2d9779c32daa62cd74798",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s07",
+          "file": "audio/q10/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000681724,
+            "peak": 0.4455738067626953,
+            "sha256": "e4f8d71c58df745741747c35816dc5b2e78dcccafa2489e437b20b5ac9b0f1ef",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s08",
+          "file": "audio/q10/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000247618,
+            "peak": 0.4767153263092041,
+            "sha256": "66fc0ebc521360a8e4607e4da6000cc139af83775eba45cefb286c5a0242fe17",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s09",
+          "file": "audio/q10/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000180645,
+            "peak": 0.4534427225589752,
+            "sha256": "fe532767142c3aa6ac2534f5510647f703bd96812142c4e4736ca2b48909105f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s10",
+          "file": "audio/q10/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000889567,
+            "peak": 0.47007042169570923,
+            "sha256": "bb1451440de84aa12af440677b91e66dafefe353341dbdd01768acf366c2c231",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s11",
+          "file": "audio/q10/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998754511,
+            "peak": 0.45585954189300537,
+            "sha256": "8aeab9ba373a43082ec968de8c33edcf0ed3552065a6542269d91f5ceb89a686",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s12",
+          "file": "audio/q10/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.1050000000127578,
+            "peak": 0.4784892797470093,
+            "sha256": "aba671fcd48f95a1991b07b5bc1849d1cdd84f126c2e602204e741f2ad3a4627",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s13",
+          "file": "audio/q10/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998049098,
+            "peak": 0.46384385228157043,
+            "sha256": "73f9eea2cf24a498b97666e9d5aad38d46310965ebff13efd5978c7ccbc72f30",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s14",
+          "file": "audio/q10/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999998694347,
+            "peak": 0.4769938588142395,
+            "sha256": "adc34e550b0ecbc4f38d9edb0cdd8d5492cc4d432cf86caa1d6be174b7714598",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s15",
+          "file": "audio/q10/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001555945,
+            "peak": 0.4958727955818176,
+            "sha256": "8c7127ef1ea0a1c5c25d929705812916cdc60a27cb29af3841c9e8b1d423fa00",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s16",
+          "file": "audio/q10/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000595669,
+            "peak": 0.530746340751648,
+            "sha256": "03b0ecb8c3536cf48a4b31ab36f81796b3b19a96016c3b7496f764f4467ab15a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s17",
+          "file": "audio/q10/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10499999999399759,
+            "peak": 0.4657815992832184,
+            "sha256": "dc41fa7ad66f7ff1d053f7dce6743e00eaef5dae5f9d4f5c34759c9a213f8ab9",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s18",
+          "file": "audio/q10/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000001608807,
+            "peak": 0.4833625555038452,
+            "sha256": "ab156d5ecefa6e8c797097b0c72c9554405ab98a8e460d76b6fed0b5468806ca",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s19",
+          "file": "audio/q10/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000337574,
+            "peak": 0.4659091830253601,
+            "sha256": "c15f45fe19ed01629c4ab16a560d9170315d0850772792c7694858e47363847d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q10_s20",
+          "file": "audio/q10/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q10/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 336000,
+            "duration_seconds": 7.0,
+            "rms": 0.10500000000669343,
+            "peak": 0.5274034142494202,
+            "sha256": "b8fe5c628e54787b6444253d029c72cb54334c78acfc30d577ba194669dbb3f0",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q11",
+      "mechanism": "Low-frequency audibility boundary",
+      "variant": "LF",
+      "question": "How many separate sound segments could you hear?",
+      "options": [
+        {
+          "value": "0",
+          "label": "0"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q11_s01",
+          "file": "audio/q11/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.05100373705179873,
+            "sha256": "dd31f6d4fdd58fa6f8ad393755b88e348637455b26bc6c07c66e46dd4b6e1ea7",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s02",
+          "file": "audio/q11/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.05100559800749575,
+            "sha256": "6ade0a865a6efa10bcbe1b5ea8b99e9d5b78f8430714f7cae8d62df247c68245",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s03",
+          "file": "audio/q11/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.05100129718418725,
+            "sha256": "28e3eaf8b60b197ef7318843b71b7eb5a4d55e00f9b44b148d3bf8e5e0760b2c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s04",
+          "file": "audio/q11/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.051004787033890685,
+            "sha256": "ea33847c04f92286c741685f80903d700a33fdf8286df0da53bbac945c3c35b5",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s05",
+          "file": "audio/q11/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428657,
+            "peak": 0.051001417215701644,
+            "sha256": "f1e956f67d6e001bfab8e8def27133330ee623123f1e8953a29549617d0e3305",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s06",
+          "file": "audio/q11/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428658,
+            "peak": 0.05100129871026824,
+            "sha256": "1e6350aef498e75e025cc31eb00edebe03ee387310622ef1c35e09d67858808f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s07",
+          "file": "audio/q11/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428657,
+            "peak": 0.05100561447916979,
+            "sha256": "733c44e93f3f9683fd03fc9ad5ad741b1ad916f38156995687142bcce408a958",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s08",
+          "file": "audio/q11/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428657,
+            "peak": 0.05100416003428487,
+            "sha256": "fcb1b91cf67fcc4f95126388d5ecc7b53484d20c0e89bc75d6b94410e69935f7",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s09",
+          "file": "audio/q11/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428658,
+            "peak": 0.05100316045864553,
+            "sha256": "b9f285a437dd768137a2af5b31c7e8cb0b399e020b5af80bc38b50b4c2915cb5",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s10",
+          "file": "audio/q11/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428658,
+            "peak": 0.05100130499381035,
+            "sha256": "de84502a40f31acfe4a0eb98a4eb84558106f91e7c52acf2a0a81cb3443ccbca",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s11",
+          "file": "audio/q11/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.05100136658396004,
+            "sha256": "707c98d1358c43aaaf2857cb782ff0a81feea32139ac2413cbc608cf2d302351",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s12",
+          "file": "audio/q11/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428658,
+            "peak": 0.05100340235597372,
+            "sha256": "946e9e4c8a961b571d9f8e6a535d49e8b7c0e2e96ed8286a8e1b00e7c4e4d3ef",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s13",
+          "file": "audio/q11/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.0510056263073792,
+            "sha256": "bd624e5cf7466e3a7a673379ad481df63384c1e810e191259fc8c60c7178ea26",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s14",
+          "file": "audio/q11/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428658,
+            "peak": 0.05100310731622553,
+            "sha256": "121a98c2f99df323c5a2f558b14d4ce54b7576739af238be0dfc717daf7b7635",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s15",
+          "file": "audio/q11/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.05100279415656107,
+            "sha256": "1ae7c9bf35fe8c0ed37634d1b64c2e5d0802792fc300a59a17eee074161e8d11",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s16",
+          "file": "audio/q11/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.05100238173656036,
+            "sha256": "3b5c02ac7724c80ffa6c3e169b7e5332fde0e15de7355d1829da8ebf0eac7054",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s17",
+          "file": "audio/q11/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428658,
+            "peak": 0.051005017523239264,
+            "sha256": "f29c8594436ff1d3fd6f665031eb5a388b75ed73161d2ce58085a5fe203280d5",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s18",
+          "file": "audio/q11/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.03373572027428658,
+            "peak": 0.05100144243326433,
+            "sha256": "793d96d8505ef07849f6890fc338e831f2fe8c15d381b9523a54a77bc5c08aac",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s19",
+          "file": "audio/q11/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.051004502214900604,
+            "sha256": "4231d912276ce233d0d9b6b6b164ac8ded7b414cb5ef7d68b348cd125848359b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q11_s20",
+          "file": "audio/q11/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q11/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.033735720274286576,
+            "peak": 0.05100439587165561,
+            "sha256": "2489d4a69560a8660ddacdfcc6a76091dc7d8dac3065f1accd1a3578e27c16f9",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q12",
+      "mechanism": "Relative-level audibility boundary",
+      "variant": "LL",
+      "question": "How many separate sound segments could you hear?",
+      "options": [
+        {
+          "value": "0",
+          "label": "0"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q12_s01",
+          "file": "audio/q12/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00010671080366855861,
+            "sha256": "aebfff08343f434c7fb5e5b897cce30d308522a088b4aca602fd8e5b182606ca",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s02",
+          "file": "audio/q12/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00013002669009480616,
+            "sha256": "2c99e7b11bb0669c4323aae8b3355c307d81481e41e54de80166e69844f82951",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s03",
+          "file": "audio/q12/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00012027992951958002,
+            "sha256": "fe8bd61a1ccf5f0ccbdca6742577849db0720c975c0e5d88b6b973c1a82264fd",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s04",
+          "file": "audio/q12/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.7852100716918424e-05,
+            "peak": 0.00012331827528785658,
+            "sha256": "1654c21ded15206ef7a30653e7269d33f559e02cc84725cfb379d8d8c562f979",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s05",
+          "file": "audio/q12/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.7852100716918424e-05,
+            "peak": 9.602927315781212e-05,
+            "sha256": "1a1be27361bd2b5fd2f54888d115d86e49dabb888f6eb43aa887db83a1542cdc",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s06",
+          "file": "audio/q12/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.0001283961418117579,
+            "sha256": "7284320b5b67aaeff3cfb265c39f06772cb36dd975c98473fa72166f33ad2b51",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s07",
+          "file": "audio/q12/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691843e-05,
+            "peak": 0.00011118382652559368,
+            "sha256": "3c69a4171088a39aa3bf56f8eb9d0acdaeaa53b9335a6ff2ef5638012e9ba659",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s08",
+          "file": "audio/q12/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691843e-05,
+            "peak": 0.00011420415928269171,
+            "sha256": "b37e8981a206131c3ab6df7c78635098f0c38199b0c209e3b2148eda0c18ea71",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s09",
+          "file": "audio/q12/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691843e-05,
+            "peak": 0.00010422981187980805,
+            "sha256": "54aa24725c974b953b2d88596221829f6aaf647dc79781bea4828a42068f3e16",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s10",
+          "file": "audio/q12/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.7852100716918424e-05,
+            "peak": 0.00012362350015212336,
+            "sha256": "ef8e75e38a7cb75a944acb64418a823e12a7af37c8f7372e40db9d30e758aed3",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s11",
+          "file": "audio/q12/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.0001338690701664339,
+            "sha256": "c25d67b1f3e4bcfdad0e61c71ffa6226f25fc8cc2481afb3c2cd1362a4eef5a7",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s12",
+          "file": "audio/q12/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00010429467070524575,
+            "sha256": "3380ffbaeed265728780e1bc64a2d9922f6a311f192002d695406ee3ddcbbb09",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s13",
+          "file": "audio/q12/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00012422826319794206,
+            "sha256": "1804dbcccb47241a232a5ebcef736c99b94cd6483ea0b09ae92a48f60f675aca",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s14",
+          "file": "audio/q12/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.7852100716918424e-05,
+            "peak": 0.00010919235496026477,
+            "sha256": "a3b27e93231f44cd07a973a80d9d05acc1ef55752c9ac4ae9e35838a42055940",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s15",
+          "file": "audio/q12/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 9.211779181115179e-05,
+            "sha256": "e9ef6e769c1a08e2ac8169c9fc4ea95624b87c2b6ebb4c81c3244b52f3d5611f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s16",
+          "file": "audio/q12/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00010959564914187778,
+            "sha256": "b2ca1aa31efa9233b13c6c3f316f28ac16cbdd620c0c941ff2a56265f19642e9",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s17",
+          "file": "audio/q12/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00013489173898991719,
+            "sha256": "db9f9a5c96807a8cbda6c0465ba29e23bcc7366a7c1b327af3aa4d86600d65b4",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s18",
+          "file": "audio/q12/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.7852100716918424e-05,
+            "peak": 0.0001065096641333622,
+            "sha256": "fa9d170a1da2d7f93c482abac530636b088ba0480f75e03228e5dabe8bb6b01e",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s19",
+          "file": "audio/q12/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691843e-05,
+            "peak": 0.00010210861094031142,
+            "sha256": "7420008b41e1d7b25b4f20c25cd56cd1255ab1eef71d662bc6c3991ac7785dd6",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q12_s20",
+          "file": "audio/q12/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q12/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 3.785210071691842e-05,
+            "peak": 0.00010855449196294393,
+            "sha256": "2cf68d7bb5312d756a21390b05b7af0c37bea2eb37efa7b0da5bf17d37c13d49",
+            "contains_tts": false
+          }
+        }
+      ]
+    },
+    {
+      "category_id": "q13",
+      "mechanism": "Near-threshold gap detection",
+      "variant": "NG",
+      "question": "How many separate sound segments could you hear?",
+      "options": [
+        {
+          "value": "0",
+          "label": "0"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "sample_count": 20,
+      "samples": [
+        {
+          "sample_id": "q13_s01",
+          "file": "audio/q13/s01.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s01.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07998885666365045,
+            "peak": 0.2982779381239572,
+            "sha256": "c3bbaf91b6f1530db18d65d7d6582776cffc873de35fd0a4636995ca526c3e8f",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s02",
+          "file": "audio/q13/s02.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s02.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07986317725041235,
+            "peak": 0.2561900413255461,
+            "sha256": "f4b70373f91b52d385a3359035317cea9d6c753ae370e71d166bc6dce4a013f1",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s03",
+          "file": "audio/q13/s03.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s03.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07982753071778012,
+            "peak": 0.2512738150656257,
+            "sha256": "0ad3d2557baaaede252e0b1eab9b7fac5afe2951c0787c51a939c7b464721a2a",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s04",
+          "file": "audio/q13/s04.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s04.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07994031171214477,
+            "peak": 0.26207217312410935,
+            "sha256": "837f4b6013ed5c82499e2b40618b616b8a29bd07dab653bd4026798396899b2b",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s05",
+          "file": "audio/q13/s05.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s05.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07989861752177214,
+            "peak": 0.2432888884423356,
+            "sha256": "7b33244f54b6700639162db54dc2cb1ecc8267f9ca068ebbe82ece880a33b180",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s06",
+          "file": "audio/q13/s06.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s06.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07993909953205411,
+            "peak": 0.23811348603355714,
+            "sha256": "df3b51726cbe1377932796f7210ef4636d619e1dd664e8f1bc0b9c749014f61d",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s07",
+          "file": "audio/q13/s07.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s07.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07984220163704334,
+            "peak": 0.22767120458932977,
+            "sha256": "86015def2bd7f06508326ebfbf37750c6b3cfb75a5b01368e2eac6879c0d8bb1",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s08",
+          "file": "audio/q13/s08.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s08.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07999262599362673,
+            "peak": 0.2193018814192234,
+            "sha256": "0f2cc96e3c260d48633254256d3ce65ae929d80b2cce6fc99739bc9c757505ee",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s09",
+          "file": "audio/q13/s09.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s09.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07993202713084556,
+            "peak": 0.20333102922115323,
+            "sha256": "0f569667e0bd6d2b2a5b0c37556c72b8c10ca47dc5f501aadfb59118e045c38c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s10",
+          "file": "audio/q13/s10.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s10.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07998499743718768,
+            "peak": 0.2309467096381708,
+            "sha256": "f84f5e112155bdc50dace384ec14478a33757adab5f2854d8b4f46c025536187",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s11",
+          "file": "audio/q13/s11.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s11.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07991898289716684,
+            "peak": 0.23076913739657692,
+            "sha256": "fd8bdb604688c4a6676068b9685bfbd5dfdc427d57edc51e1505f11b9b62fd58",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s12",
+          "file": "audio/q13/s12.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s12.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07999434985149047,
+            "peak": 0.2235418572457009,
+            "sha256": "1eb9c726f2e63702b2f531ec311cb8c273352239850bd489b20c5b779c485380",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s13",
+          "file": "audio/q13/s13.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s13.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.0799928470520185,
+            "peak": 0.3253324181321144,
+            "sha256": "ccdd9a72acd5508ff4ecf4b7ae30383fcee51c2b056358c46b636eb2c0b271ac",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s14",
+          "file": "audio/q13/s14.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s14.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07997198277616545,
+            "peak": 0.2674637409989059,
+            "sha256": "d1dd7b89863b5ae1184bffcfc5dce2d2673c036bdf5b9f34a3ef2eff0baec105",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s15",
+          "file": "audio/q13/s15.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s15.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07988200032965265,
+            "peak": 0.2702616917365968,
+            "sha256": "92818ab22d87756b0f56b54e8a19be3c8248d5b04ca9afe1c2981a04e6b7ee78",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s16",
+          "file": "audio/q13/s16.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s16.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07999278511973311,
+            "peak": 0.20463289865899678,
+            "sha256": "74aba53d892a58d8463f64da72d18764b1535abe4023cab84032e9cd6129bd47",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s17",
+          "file": "audio/q13/s17.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s17.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.0798661383090354,
+            "peak": 0.2336722353558501,
+            "sha256": "bed3a6e99b424f52e885f3d2444a255241b68ee0e21cbd901402a1487cd2e849",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s18",
+          "file": "audio/q13/s18.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s18.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07998809896230673,
+            "peak": 0.23196894605880639,
+            "sha256": "afc6461d6929fd247180424ef36860f63f06018063409ed17afde4e06307c431",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s19",
+          "file": "audio/q13/s19.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s19.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07994116376791092,
+            "peak": 0.24029059944281125,
+            "sha256": "72575f0379a387241ef49282c5ec7250e257fd5a7fd3133c6d0744a0f062806c",
+            "contains_tts": false
+          }
+        },
+        {
+          "sample_id": "q13_s20",
+          "file": "audio/q13/s20.wav",
+          "url": "https://mingjiequinnbao.github.io/pilot/audio/q13/s20.wav",
+          "audio": {
+            "sample_rate": 48000,
+            "channels": 1,
+            "subtype": "PCM_24",
+            "frames": 48000,
+            "duration_seconds": 1.0,
+            "rms": 0.07999841646642941,
+            "peak": 0.3123670653305394,
+            "sha256": "5605dd66b67887712767a4f7a4b2bad484777780f950b63c719877aed7809d2d",
+            "contains_tts": false
+          }
+        }
+      ]
+    }
+  ]
+}
